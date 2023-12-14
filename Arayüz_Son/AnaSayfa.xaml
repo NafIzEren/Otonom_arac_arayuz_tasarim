@@ -13,7 +13,17 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF545454"/>
-        <Rectangle HorizontalAlignment="Left" Height="621" Margin="410,34,0,0" Stroke="Black" VerticalAlignment="Top" Width="542"/>
+        <Rectangle HorizontalAlignment="Center" Height="621" Margin="0,32,0,0" Stroke="Black" VerticalAlignment="Top" Width="542"/>
+        <Path Data="M412,171.26992 L946.8,171.6" Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="1" Margin="0,171,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="523"/>
+        <Rectangle HorizontalAlignment="Center" Height="130" Margin="0,36,0,0" Stroke="Black" VerticalAlignment="Top" Width="110" Fill="#FF393939"/>
+        <TextBlock x:Name="hız" HorizontalAlignment="Center" Height="96" Margin="0,32,0,0" TextWrapping="Wrap" Text="20" VerticalAlignment="Top" Width="105" Foreground="White" FontFamily="Digital-7" FontSize="108"/>
+        <Rectangle HorizontalAlignment="Left" Height="34" Margin="422,132,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" Fill="#FF393939"/>
+        <TextBlock x:Name="P" HorizontalAlignment="Left" Height="33" Margin="428,132,0,0" TextWrapping="Wrap" Text="P" VerticalAlignment="Top" Width="20" Foreground="#FFB8B8B8" FontFamily="Digital-7" FontSize="36"/>
+        <TextBlock x:Name="R" HorizontalAlignment="Left" Height="33" Margin="453,132,0,0" TextWrapping="Wrap" Text="R" VerticalAlignment="Top" Width="20" Foreground="#FFB8B8B8" FontFamily="Digital-7" FontSize="36"/>
+        <TextBlock x:Name="N" HorizontalAlignment="Left" Height="33" Margin="478,132,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Width="20" Foreground="#FFB8B8B8" FontFamily="Digital-7" FontSize="36"/>
+        <TextBlock x:Name="D" HorizontalAlignment="Left" Height="33" Margin="503,132,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" Width="20" Foreground="White" FontFamily="Digital-7" FontSize="36"/>
+        <Rectangle HorizontalAlignment="Left" Height="27" Margin="865,139,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="#FF393939"/>
+        <TextBlock x:Name="km_h" HorizontalAlignment="Center" Height="34" Margin="0,130,0,0" TextWrapping="Wrap" Text="km/h" VerticalAlignment="Top" Width="105" FontFamily="Digital-7" FontSize="36" FontStretch="SemiCondensed" TextAlignment="Center" Foreground="White"/>
 
     </Grid>
 </Page>
