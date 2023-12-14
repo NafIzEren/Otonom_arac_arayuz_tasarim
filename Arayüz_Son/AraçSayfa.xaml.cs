@@ -23,10 +23,5 @@ namespace Arayüz_Son
             gmapControl.MaxZoom = 20;
             gmapControl.Zoom = 15;
         }
-
-        private void Btn_Duscart(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

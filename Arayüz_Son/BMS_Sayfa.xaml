@@ -8,10 +8,7 @@
       Title="BMS_Sayfa" Width="1366" Height="768">
 
     <Grid Width="1366" Height="768" Background="#FF313131">
-        <Image Margin="358,668,358,0" Source="/Templateler/Alt Bar.png" Stretch="Fill"/>
-        <Image Margin="85,668,1031,0" Source="/Templateler/Duscart_Logo_Bar.png" Stretch="Fill"/>
-        <Image Margin="1082,668,85,0" Source="/Templateler/Saat_Bar.png" Stretch="Fill"/>
-        <Button x:Name="Duscart_btn" Content="Button" HorizontalAlignment="Left" Height="62" Margin="117,677,0,0" VerticalAlignment="Top" Width="154" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Btn_Duscart"/>
-
+        <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF545454"/>
+        <Rectangle HorizontalAlignment="Left" Height="195" Margin="570,189,0,0" VerticalAlignment="Top" Width="162" Fill="#FFB82424"/>
     </Grid>
 </Page>

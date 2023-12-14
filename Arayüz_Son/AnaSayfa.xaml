@@ -9,9 +9,8 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Frame x:Name="Ana_Sayfa" Content="Frame" Foreground="{x:Null}"/>
-
-        <Image Margin="29,19,938,91" Source="/Templateler/Component_Sayfası.png" Stretch="Fill"/>
+        <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF545454"/>
+        <Rectangle HorizontalAlignment="Left" Height="227" Margin="641,248,0,0" VerticalAlignment="Top" Width="166" Fill="Black"/>
 
     </Grid>
 </Page>

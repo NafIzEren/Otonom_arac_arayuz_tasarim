@@ -33,14 +33,49 @@ namespace Arayüz_Son
             Main.Content = new AraçSayfa();
             Arac_Btn.Background = new SolidColorBrush(beyaz);
             Home_Btn.Background = new SolidColorBrush(turuncu);
+            Info_Btn.Background = new SolidColorBrush(turuncu);
+            BMS_Btn.Background = new SolidColorBrush(turuncu);
+            AKS_Btn.Background = new SolidColorBrush(turuncu);
         }
 
         private void Btn_Home(object sender, RoutedEventArgs e)
         {
             Main.Content = new AnaSayfa();
-            Home_Btn.Background = new SolidColorBrush(beyaz);
             Arac_Btn.Background = new SolidColorBrush(turuncu);
+            Home_Btn.Background = new SolidColorBrush(beyaz);
+            Info_Btn.Background = new SolidColorBrush(turuncu);
+            BMS_Btn.Background = new SolidColorBrush(turuncu);
+            AKS_Btn.Background = new SolidColorBrush(turuncu);
+        }
 
+        private void Btn_Info(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new InfoSayfa();
+            Arac_Btn.Background = new SolidColorBrush(turuncu);
+            Home_Btn.Background = new SolidColorBrush(turuncu);
+            Info_Btn.Background = new SolidColorBrush(beyaz);
+            BMS_Btn.Background = new SolidColorBrush(turuncu);
+            AKS_Btn.Background = new SolidColorBrush(turuncu);
+        }
+
+        private void Btn_BMS(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new BMS_Sayfa();
+            Arac_Btn.Background = new SolidColorBrush(turuncu);
+            Home_Btn.Background = new SolidColorBrush(turuncu);
+            Info_Btn.Background = new SolidColorBrush(turuncu);
+            BMS_Btn.Background = new SolidColorBrush(beyaz);
+            AKS_Btn.Background = new SolidColorBrush(turuncu);
+        }
+
+        private void Btn_AKS(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new AKS_Sayfa();
+            Arac_Btn.Background = new SolidColorBrush(turuncu);
+            Home_Btn.Background = new SolidColorBrush(turuncu);
+            Info_Btn.Background = new SolidColorBrush(turuncu);
+            BMS_Btn.Background = new SolidColorBrush(turuncu);
+            AKS_Btn.Background = new SolidColorBrush(beyaz);
         }
     }
 }
