@@ -20,13 +20,26 @@ namespace Arayüz_Son
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+        Color turuncu = Color.FromRgb(216, 91, 5);
+        Color beyaz = Color.FromRgb(255, 255, 255);
 
         private void Btn_Duscart(object sender, RoutedEventArgs e)
         {
+
+        }
+
+        private void Btn_Arac(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new AraçSayfa();
+            Arac_Btn.Background = new SolidColorBrush(beyaz);
+            Home_Btn.Background = new SolidColorBrush(turuncu);
+        }
+
+        private void Btn_Home(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new AnaSayfa();
+            Home_Btn.Background = new SolidColorBrush(beyaz);
+            Arac_Btn.Background = new SolidColorBrush(turuncu);
 
         }
     }

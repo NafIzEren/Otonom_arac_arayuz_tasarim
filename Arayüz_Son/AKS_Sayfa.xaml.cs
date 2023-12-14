@@ -24,5 +24,10 @@ namespace Arayüz_Son
         {
             InitializeComponent();
         }
+
+        private void Btn_Duscart(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

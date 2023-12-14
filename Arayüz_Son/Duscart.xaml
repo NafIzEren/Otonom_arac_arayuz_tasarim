@@ -1,0 +1,13 @@
+﻿<Page x:Class="Arayüz_Son.Duscart"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Arayüz_Son"
+      mc:Ignorable="d"
+      Title="Duscart" Height="768" Width="1366">
+
+    <Grid Width="1366" Height="768" Background="#FF313131">
+
+    </Grid>
+</Page>

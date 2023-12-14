@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Arayüz_Son
 {
@@ -23,6 +11,22 @@ namespace Arayüz_Son
         public AraçSayfa()
         {
             InitializeComponent();
+            InitializeMap();
+        }
+        private void InitializeMap()
+        {
+            gmapControl.MapProvider = GMap.NET.MapProviders.GoogleSatelliteMapProvider.Instance;
+            GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerOnly;
+
+            gmapControl.Position = new GMap.NET.PointLatLng(39.481016, 29.900410);
+            gmapControl.MinZoom = 1;
+            gmapControl.MaxZoom = 20;
+            gmapControl.Zoom = 15;
+        }
+
+        private void Btn_Duscart(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
