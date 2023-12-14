@@ -58,5 +58,6 @@
                 <ImageBrush ImageSource="/Templateler/AKS_Logo_T.png"/>
             </Button.Background>
         </Button>
+        <MediaElement Height="627" Margin="5,10,6,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

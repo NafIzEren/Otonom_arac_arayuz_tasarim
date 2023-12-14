@@ -6,11 +6,14 @@
       xmlns:local="clr-namespace:Arayüz_Son">
 
     <Grid Width="1366" Height="768" Background="#FF313131">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF545454"/>
-        <Rectangle HorizontalAlignment="Left" Height="227" Margin="641,248,0,0" VerticalAlignment="Top" Width="166" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="621" Margin="410,34,0,0" Stroke="Black" VerticalAlignment="Top" Width="542"/>
 
     </Grid>
 </Page>
