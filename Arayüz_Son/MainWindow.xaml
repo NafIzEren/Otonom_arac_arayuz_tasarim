@@ -6,10 +6,5 @@
         xmlns:local="clr-namespace:Arayüz_Son"
         mc:Ignorable="d"
         Title="MainWindow" Height="780" Width="1366" Background="#FF313131">
-    <Grid Width="1366" Height="768" Margin="0,-4,0,0">
-        <Image Margin="358,668,358,0" Source="/Templateler/Alt Bar.png" Stretch="Fill"/>
-        <Image Margin="85,668,1031,0" Source="/Templateler/Duscart_Logo_Bar.png" Stretch="Fill"/>
-        <Image Margin="1082,668,85,0" Source="/Templateler/Saat_Bar.png" Stretch="Fill"/>
-        <Button x:Name="Duscart_btn" Content="Button" HorizontalAlignment="Left" Height="62" Margin="117,677,0,0" VerticalAlignment="Top" Width="154" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Btn_Duscart"/>
-    </Grid>
+    <Grid Width="1366" Height="768" Margin="0,-4,0,0"/>
 </Window>
