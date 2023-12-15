@@ -82,5 +82,10 @@ namespace Arayüz_Son
             BMS_Btn.Background = new SolidColorBrush(turuncu);
             AKS_Btn.Background = new SolidColorBrush(beyaz);
         }
+
+        private void VidPlayer_Loaded(object sender, RoutedEventArgs e)
+        {
+            VidPlayer.Play();
+        }
     }
 }

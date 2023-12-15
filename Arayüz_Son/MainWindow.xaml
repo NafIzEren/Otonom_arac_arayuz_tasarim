@@ -58,5 +58,6 @@
                 <ImageBrush ImageSource="/Templateler/AKS_Logo_T.png"/>
             </Button.Background>
         </Button>
+        <MediaElement Name="VidPlayer" Source="/Vid.mp4"/>
     </Grid>
 </Window>
