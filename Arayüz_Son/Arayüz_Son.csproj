@@ -188,6 +188,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Design\projectGuides.guides" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -224,6 +225,27 @@
     <Resource Include="Templateler\BMS_Logo_T.png" />
     <Resource Include="Templateler\Info_Logo_B.png" />
     <Resource Include="Templateler\Info_Logo_T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Deneme\Dikkat_Tabelası.png" />
+    <Resource Include="Deneme\Dur_Tabelası.png" />
+    <Resource Include="Deneme\Kısalar.png" />
+    <Resource Include="Deneme\Sokak_Tabelası.png" />
+    <Resource Include="Deneme\Uzunlar.png" />
+    <Resource Include="Deneme\sol_sinyal.png" />
+    <Resource Include="Deneme\Akü.png" />
+    <Resource Include="Deneme\Dörtlü.png" />
+    <Resource Include="Deneme\El_Freni.png" />
+    <Resource Include="Deneme\Fren_pedal.png" />
+    <Resource Include="Deneme\Park.png" />
+    <Resource Include="Deneme\Sağ_sinyal.png" />
+    <Resource Include="Deneme\Sis_farı.png" />
+    <Resource Include="Deneme\arrow_back_ios_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Deneme\arrow_forward_ios_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Deneme\mode_off_on_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Deneme\speed_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Deneme\traffic_FILL0_wght400_GRAD0_opsz24.png" />
+    <Content Include="Deneme\Video_deneme.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

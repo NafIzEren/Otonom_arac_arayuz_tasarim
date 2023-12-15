@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace Arayüz_Son
 {
@@ -22,7 +24,10 @@ namespace Arayüz_Son
     {
         Color turuncu = Color.FromRgb(216, 91, 5);
         Color beyaz = Color.FromRgb(255, 255, 255);
-
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
         private void Btn_Duscart(object sender, RoutedEventArgs e)
         {
 

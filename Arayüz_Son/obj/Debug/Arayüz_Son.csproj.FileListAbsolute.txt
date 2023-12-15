@@ -56,3 +56,4 @@ C:\Users\PC\source\repos\Arayüz_Son\Arayüz_Son\obj\Debug\Arayüz_Son.exe
 C:\Users\PC\source\repos\Arayüz_Son\Arayüz_Son\obj\Debug\Arayüz_Son.pdb
 C:\Users\PC\source\repos\Arayüz_Son\Arayüz_Son\obj\Debug\Duscart.g.cs
 C:\Users\PC\source\repos\Arayüz_Son\Arayüz_Son\obj\Debug\Duscart.baml
+C:\Users\PC\source\repos\Arayüz_Son\Arayüz_Son\obj\Debug\Arayüz_Son_Content.g.cs

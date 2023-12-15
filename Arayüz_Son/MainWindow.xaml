@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Arayüz_Son"
         mc:Ignorable="d"
-        Title="MainWindow" Height="780" Width="1366" Background="#FF313131" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" ResizeMode="NoResize">
+        Title="MainWindow" Height="780" Width="1366" Background="#FF313131" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" ResizeMode="NoResize" AllowDrop="True">
     <Grid Width="1366" Height="768" VerticalAlignment="Top">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -58,6 +58,5 @@
                 <ImageBrush ImageSource="/Templateler/AKS_Logo_T.png"/>
             </Button.Background>
         </Button>
-        <MediaElement Height="627" Margin="5,10,6,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
