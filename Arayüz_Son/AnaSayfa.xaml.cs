@@ -14,6 +14,7 @@ namespace Arayüz_Son
     /// </summary>
     public partial class AnaSayfa : Page
     {
+
         public AnaSayfa()
         {
             InitializeComponent();
