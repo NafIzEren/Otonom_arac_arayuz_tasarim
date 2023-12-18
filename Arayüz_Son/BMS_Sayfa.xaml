@@ -45,5 +45,6 @@
         <Path Data="M24,556 L372,556" Fill="#FFFFFAFF" HorizontalAlignment="Left" Height="1" Margin="24,457,0,0" Stretch="Fill" VerticalAlignment="Top" Width="349" Stroke="#FFFFFAFF"/>
         <Path Data="M24,556 L372,556" Fill="#FFFFFAFF" HorizontalAlignment="Left" Height="1" Margin="24,362,0,0" Stretch="Fill" VerticalAlignment="Top" Width="349" Stroke="#FFFFFAFF"/>
         <Path Data="M24,556 L372,556" Fill="#FFFFFAFF" HorizontalAlignment="Left" Height="1" Margin="26,267,0,0" Stretch="Fill" VerticalAlignment="Top" Width="349" Stroke="#FFFFFAFF"/>
+        <Rectangle HorizontalAlignment="Left" Height="442" Margin="385,188,0,0" Stroke="Black" VerticalAlignment="Top" Width="678"/>
     </Grid>
 </Page>
