@@ -22,8 +22,8 @@ namespace Arayüz_Son
     /// </summary>
     public partial class MainWindow : Window
     {
-        Color turuncu = Color.FromRgb(216, 91, 5);
-        Color beyaz = Color.FromRgb(255, 255, 255);
+        Color turuncu = Color.FromRgb(254, 93, 38);
+        Color beyaz = Color.FromRgb(255, 250, 255);
         public MainWindow()
         {
             InitializeComponent();
@@ -81,11 +81,6 @@ namespace Arayüz_Son
             Info_Btn.Background = new SolidColorBrush(turuncu);
             BMS_Btn.Background = new SolidColorBrush(turuncu);
             AKS_Btn.Background = new SolidColorBrush(beyaz);
-        }
-
-        private void VidPlayer_Loaded(object sender, RoutedEventArgs e)
-        {
-            VidPlayer.Play();
         }
     }
 }

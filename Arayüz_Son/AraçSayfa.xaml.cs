@@ -11,17 +11,7 @@ namespace Arayüz_Son
         public AraçSayfa()
         {
             InitializeComponent();
-            InitializeMap();
-        }
-        private void InitializeMap()
-        {
-            gmapControl.MapProvider = GMap.NET.MapProviders.GoogleSatelliteMapProvider.Instance;
-            GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerOnly;
-
-            gmapControl.Position = new GMap.NET.PointLatLng(39.481016, 29.900410);
-            gmapControl.MinZoom = 1;
-            gmapControl.MaxZoom = 20;
-            gmapControl.Zoom = 15;
         }
     }
 }
+

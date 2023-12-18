@@ -7,8 +7,178 @@
       mc:Ignorable="d"
       Title="BMS_Sayfa" Width="1366" Height="768">
 
-    <Grid Width="1366" Height="768" Background="#FF313131">
-        <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF545454"/>
-        <Rectangle HorizontalAlignment="Left" Height="195" Margin="570,189,0,0" VerticalAlignment="Top" Width="162" Fill="#FFB82424"/>
+    <Grid Width="1366" Height="768" Background="#FF001514">
+        <Rectangle HorizontalAlignment="Left" Height="644" Margin="14,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF6E6362"/>
+        <Image Margin="35,31,1222,693" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,80,1222,644" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,128,1222,596" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,176,1222,548" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,223,1222,500" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,272,1222,452" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,320,1222,404" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,369,1222,355" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,417,1222,307" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,468,1222,256" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,517,1222,207" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,565,1222,159" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="35,614,1222,110" Source="/Deneme/Battery.png" Stretch="Fill"/>
+        <Image Margin="367,31,890,693" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,80,890,644" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,128,890,596" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,176,890,548" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,223,890,500" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,272,890,452" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,320,890,404" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,369,890,355" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,417,890,307" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,468,890,256" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,517,890,207" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,565,890,159" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="367,614,890,110" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="109">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Path Data="M256,20 L256,664" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="637" Margin="255,23,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="1"/>
+        <Path Data="M256,20 L256,664" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="637" Margin="492,23,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="1"/>
+        <Label Content="1" HorizontalAlignment="Left" Height="39" Margin="46,32,0,0" VerticalAlignment="Top" Width="25" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="2" HorizontalAlignment="Left" Height="39" Margin="46,80,0,0" VerticalAlignment="Top" Width="25" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="3" HorizontalAlignment="Left" Height="39" Margin="46,129,0,0" VerticalAlignment="Top" Width="25" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="4" HorizontalAlignment="Left" Height="39" Margin="46,176,0,0" VerticalAlignment="Top" Width="25" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="5" HorizontalAlignment="Left" Height="39" Margin="46,224,0,0" VerticalAlignment="Top" Width="25" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="6" HorizontalAlignment="Left" Height="39" Margin="46,273,0,0" VerticalAlignment="Top" Width="25" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="7" HorizontalAlignment="Left" Height="39" Margin="44,320,0,0" VerticalAlignment="Top" Width="25" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="8" HorizontalAlignment="Left" Height="39" Margin="46,369,0,0" VerticalAlignment="Top" Width="25" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="9" HorizontalAlignment="Left" Height="39" Margin="46,418,0,0" VerticalAlignment="Top" Width="25" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="10" HorizontalAlignment="Left" Height="39" Margin="43,468,0,0" VerticalAlignment="Top" Width="34" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="11" HorizontalAlignment="Left" Height="39" Margin="46,517,0,0" VerticalAlignment="Top" Width="31" FontSize="36" FontFamily="Digital-7" RenderTransformOrigin="0.394,0.436"/>
+        <Label Content="12" HorizontalAlignment="Left" Height="39" Margin="44,565,0,0" VerticalAlignment="Top" Width="31" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="13" HorizontalAlignment="Left" Height="39" Margin="43,614,0,0" VerticalAlignment="Top" Width="31" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="14" HorizontalAlignment="Left" Height="39" Margin="436,32,0,0" VerticalAlignment="Top" Width="42" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="15" HorizontalAlignment="Left" Height="39" Margin="436,80,0,0" VerticalAlignment="Top" Width="42" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="16" HorizontalAlignment="Left" Height="39" Margin="436,129,0,0" VerticalAlignment="Top" Width="42" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="17" HorizontalAlignment="Left" Height="39" Margin="436,176,0,0" VerticalAlignment="Top" Width="42" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="18" HorizontalAlignment="Left" Height="39" Margin="436,224,0,0" VerticalAlignment="Top" Width="42" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="19" HorizontalAlignment="Left" Height="39" Margin="436,273,0,0" VerticalAlignment="Top" Width="42" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="20" HorizontalAlignment="Left" Height="39" Margin="426,320,0,0" VerticalAlignment="Top" Width="44" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="21" HorizontalAlignment="Left" Height="39" Margin="434,369,0,0" VerticalAlignment="Top" Width="42" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="22" HorizontalAlignment="Left" Height="39" Margin="428,418,0,0" VerticalAlignment="Top" Width="42" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="23" HorizontalAlignment="Left" Height="39" Margin="426,468,0,0" VerticalAlignment="Top" Width="44" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="24" HorizontalAlignment="Left" Height="39" Margin="428,517,0,0" VerticalAlignment="Top" Width="42" FontSize="36" FontFamily="Digital-7" RenderTransformOrigin="0.394,0.436"/>
+        <Label Content="25" HorizontalAlignment="Left" Height="39" Margin="426,565,0,0" VerticalAlignment="Top" Width="44" FontSize="36" FontFamily="Digital-7"/>
+        <Label Content="26" HorizontalAlignment="Left" Height="39" Margin="426,614,0,0" VerticalAlignment="Top" Width="44" FontSize="36" FontFamily="Digital-7"/>
     </Grid>
 </Page>

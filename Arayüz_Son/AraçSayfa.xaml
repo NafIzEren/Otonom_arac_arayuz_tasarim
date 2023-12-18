@@ -3,13 +3,13 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Arayüz_Son"
-      xmlns:gmap="clr-namespace:GMap.NET.WindowsPresentation;assembly=GMap.NET.WindowsPresentation" xmlns:gmap1="clr-namespace:GMap.NET.WindowsForms;assembly=GMap.NET.WindowsForms" Height="768" Width="1366"
-        >
+      xmlns:local="clr-namespace:Arayüz_Son">
 
-    <Grid Width="1366" Height="768" Background="#FF313131">
-        <Frame NavigationUIVisibility="Hidden"/>
-        <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF545454"/>
-        <gmap:GMapControl x:Name="gmapControl" Zoom="10" Margin="36,27,867,113" MouseWheelZoomType="ViewCenter" ScaleMode="Dynamic"/>
+    <Grid Width="1366" Height="768" Background="#FF001514">
+        <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF6E6362"/>
+        <TextBlock HorizontalAlignment="Left" Height="279" Margin="100,272,0,0" TextWrapping="Wrap" Text="Harita kalkacak. Onun yerine uzaktan kontrol sistemi gelecek." VerticalAlignment="Top" Width="265" Background="White" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Height="195" Margin="536,268,0,0" TextWrapping="Wrap" Text="Araç içi özelliklerin kontrolü gelcek" VerticalAlignment="Top" Width="212" Background="White" FontSize="36"/>
+        <Rectangle HorizontalAlignment="Left" Height="623" Margin="929,30,0,0" Stroke="Black" VerticalAlignment="Top" Width="404" Fill="Black"/>
+        <TextBlock HorizontalAlignment="Left" Height="599" Margin="939,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" Foreground="#FFFFFAFF" FontSize="22" Text="ASDSADASDASDSDSDASDSADSADASDSADASDSADASDSADASDSADSADSDASDSADADSADSADASDASDASDASDASDASDASDSADASDASDADSSAd"/>
     </Grid>
 </Page>

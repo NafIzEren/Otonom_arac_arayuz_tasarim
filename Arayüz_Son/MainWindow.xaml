@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Arayüz_Son"
         mc:Ignorable="d"
-        Title="MainWindow" Height="780" Width="1366" Background="#FF313131" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" ResizeMode="NoResize" AllowDrop="True">
+        Title="MainWindow" Height="780" Width="1366" Background="#FF001514" WindowStartupLocation="CenterScreen" SizeToContent="WidthAndHeight" ResizeMode="NoResize" AllowDrop="True">
     <Grid Width="1366" Height="768" VerticalAlignment="Top">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -13,7 +13,7 @@
         <Frame x:Name="Main" NavigationUIVisibility="Hidden" Height="768" Margin="0,-2,0,2"/>
         <Image Margin="363,668,353,0" Source="/Templateler/Alt Bar.png" Stretch="Fill"/>
         <Image Margin="85,670,1031,-2" Source="/Templateler/Duscart_Logo_Bar.png" Stretch="Fill"/>
-        <Image Margin="1082,670,85,-2" Source="/Templateler/Saat_Bar.png" Stretch="Fill"/>
+        <Image Margin="1082,670,85,-2" Stretch="Fill" Source="/Templateler/Saat_Bar.png"/>
         <Button x:Name="Duscart_btn" Content="Button" HorizontalAlignment="Left" Height="62" Margin="117,679,0,0" VerticalAlignment="Top" Width="154" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Btn_Duscart"/>
         <Button x:Name="Home_Btn" Content="Button" HorizontalAlignment="Center" Height="74" Margin="0,676,0,0" VerticalAlignment="Top" Width="77" Click="Btn_Home" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.OpacityMask>
@@ -58,6 +58,5 @@
                 <ImageBrush ImageSource="/Templateler/AKS_Logo_T.png"/>
             </Button.Background>
         </Button>
-        <MediaElement Name="VidPlayer" Source="/Vid.mp4"/>
     </Grid>
 </Window>

@@ -199,13 +199,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Templateler\Alt Bar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Templateler\Duscart_Logo_Bar.png" />
-    <Resource Include="Templateler\Saat_Bar.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Templateler\Component_Sayfası.png" />
   </ItemGroup>
   <ItemGroup>
@@ -216,17 +209,22 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Templateler\AKS_Logo_B.png" />
-    <Resource Include="Templateler\AKS_Logo_T.png" />
     <Resource Include="Templateler\Ana_Sayfa_B.png" />
-    <Resource Include="Templateler\Ana_Sayfa_T.png" />
     <Resource Include="Templateler\Araç_Logo_B.png" />
-    <Resource Include="Templateler\Araç_Logo_T.png" />
     <Resource Include="Templateler\BMS_Logo_B.png" />
-    <Resource Include="Templateler\BMS_Logo_T.png" />
     <Resource Include="Templateler\Info_Logo_B.png" />
-    <Resource Include="Templateler\Info_Logo_T.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Templateler\AKS_Logo_T.png" />
+    <Resource Include="Templateler\Ana_Sayfa_T.png" />
+    <Resource Include="Templateler\Araç_Logo_T.png" />
+    <Resource Include="Templateler\BMS_Logo_T.png" />
+    <Resource Include="Templateler\Info_Logo_T.png" />
+    <Resource Include="Templateler\Alt Bar.png" />
+    <Resource Include="Templateler\Duscart_Logo_Bar.png" />
+    <Resource Include="Templateler\Saat_Bar.png" />
+    <Resource Include="Saat_Bar.png" />
+    <Resource Include="Duscart_Logo_Bar.png" />
     <Resource Include="Vid.mp4">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -248,6 +246,9 @@
     <Resource Include="Deneme\mode_off_on_FILL0_wght400_GRAD0_opsz24.png" />
     <Resource Include="Deneme\speed_FILL0_wght400_GRAD0_opsz24.png" />
     <Resource Include="Deneme\traffic_FILL0_wght400_GRAD0_opsz24.png" />
+    <Resource Include="Deneme\midle of the night kapak.PNG" />
+    <Resource Include="Alt Bar.png" />
+    <Resource Include="Deneme\Battery.png" />
     <Content Include="Deneme\Video_deneme.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -7,19 +7,19 @@
       xmlns:gmap="clr-namespace:GMap.NET.WindowsPresentation;assembly=GMap.NET.WindowsPresentation" xmlns:gmap1="clr-namespace:GMap.NET.WindowsForms;assembly=GMap.NET.WindowsForms" Height="768" Width="1366"
 >
 
-    <Grid Width="1366" Height="768" Background="#FF313131">
-        <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF545454"/>
+    <Grid Width="1366" Height="768" Background="#FF001514">
+        <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF6E6362"/>
         <Rectangle HorizontalAlignment="Left" Height="638" Margin="30,24,0,0" Stroke="Black" VerticalAlignment="Top" Width="552"/>
         <Path Data="M412,171.26992 L946.8,171.6" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="40,176,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="533"/>
-        <Rectangle HorizontalAlignment="Left" Height="130" Margin="256,41,0,0" Stroke="Black" VerticalAlignment="Top" Width="110" Fill="#FF393939"/>
-        <TextBlock x:Name="hız" HorizontalAlignment="Left" Height="96" Margin="258,37,0,0" TextWrapping="Wrap" Text="20" VerticalAlignment="Top" Width="105" Foreground="White" FontFamily="Digital-7" FontSize="108"/>
-        <Rectangle HorizontalAlignment="Left" Height="34" Margin="41,137,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" Fill="#FF393939"/>
+        <Rectangle HorizontalAlignment="Left" Height="130" Margin="256,41,0,0" Stroke="Black" VerticalAlignment="Top" Width="110" Fill="#FF001514"/>
+        <TextBlock x:Name="hız" HorizontalAlignment="Left" Height="96" Margin="258,37,0,0" TextWrapping="Wrap" Text="20" VerticalAlignment="Top" Width="105" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="108"/>
+        <Rectangle HorizontalAlignment="Left" Height="34" Margin="41,137,0,0" Stroke="Black" VerticalAlignment="Top" Width="106" Fill="#FF001514"/>
         <TextBlock x:Name="P" HorizontalAlignment="Left" Height="33" Margin="47,137,0,0" TextWrapping="Wrap" Text="P" VerticalAlignment="Top" Width="20" Foreground="#FFB8B8B8" FontFamily="Digital-7" FontSize="36"/>
         <TextBlock x:Name="R" HorizontalAlignment="Left" Height="33" Margin="72,137,0,0" TextWrapping="Wrap" Text="R" VerticalAlignment="Top" Width="20" Foreground="#FFB8B8B8" FontFamily="Digital-7" FontSize="36"/>
         <TextBlock x:Name="N" HorizontalAlignment="Left" Height="33" Margin="97,137,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Width="20" Foreground="#FFB8B8B8" FontFamily="Digital-7" FontSize="36"/>
-        <TextBlock x:Name="D" HorizontalAlignment="Left" Height="33" Margin="122,137,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" Width="20" Foreground="White" FontFamily="Digital-7" FontSize="36"/>
+        <TextBlock x:Name="D" HorizontalAlignment="Left" Height="33" Margin="122,137,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" Width="20" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="36"/>
         <Rectangle HorizontalAlignment="Left" Height="27" Margin="493,144,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="#FF393939"/>
-        <TextBlock x:Name="km_h" HorizontalAlignment="Left" Height="34" Margin="258,135,0,0" TextWrapping="Wrap" Text="km/h" VerticalAlignment="Top" Width="105" FontFamily="Digital-7" FontSize="36" FontStretch="SemiCondensed" TextAlignment="Center" Foreground="White"/>
+        <TextBlock x:Name="km_h" HorizontalAlignment="Left" Height="34" Margin="258,135,0,0" TextWrapping="Wrap" Text="km/h" VerticalAlignment="Top" Width="105" FontFamily="Digital-7" FontSize="36" FontStretch="SemiCondensed" TextAlignment="Center" Foreground="#FFFFFAFF"/>
         <Image Margin="444,142,878,595" Source="/Deneme/Akü.png" Stretch="Fill"/>
         <Image Margin="41,90,1277,635" Source="/Deneme/Dörtlü.png" Stretch="Fill"/>
         <Image Margin="205,86,1115,645" Source="/Deneme/El_Freni.png" Stretch="Fill"/>
@@ -27,12 +27,23 @@
         <Image Margin="547,38,784,700" Source="/Deneme/Sağ_sinyal.png" Stretch="Fill"/>
         <Image Margin="40,37,1290,701" Source="/Deneme/sol_sinyal.png" Stretch="Fill"/>
         <Image Margin="539,104,784,626" Source="/Deneme/Sis_farı.png" Stretch="Fill"/>
-        <Rectangle HorizontalAlignment="Left" Height="122" Margin="589,540,0,0" Stroke="Black" VerticalAlignment="Top" Width="746"/>
+        <Rectangle HorizontalAlignment="Left" Height="122" Margin="589,540,0,0" Stroke="Black" VerticalAlignment="Top" Width="746" Fill="#FF598A5B"/>
         <Image Margin="205,41,1115,687" Source="/Deneme/Park.png" Stretch="Fill"/>
         <Image Margin="463,106,868,629" Source="/Deneme/Uzunlar.png" Stretch="Fill"/>
         <Image Margin="503,107,827,630" Source="/Deneme/Kısalar.png" Stretch="Fill"/>
         <Image Margin="295,182,1039,517" Source="/Deneme/Dur_Tabelası.png" Stretch="Fill"/>
         <Rectangle HorizontalAlignment="Left" Height="23" Margin="496,146,0,0" Stroke="Black" VerticalAlignment="Top" Width="74" Fill="#FF027C1B"/>
         <gmap:GMapControl x:Name="gmapControl" Zoom="10" Margin="589,24,31,237" MouseWheelZoomType="ViewCenter" ScaleMode="Dynamic"/>
+        <ProgressBar HorizontalAlignment="Left" Height="3" Margin="720,598,0,0" VerticalAlignment="Top" Width="574" Background="Black" BorderBrush="{x:Null}" Value="60" Foreground="#FF55C96A"/>
+        <Ellipse HorizontalAlignment="Left" Height="39" Margin="988,606,0,0" Stroke="Black" VerticalAlignment="Top" Width="39"/>
+        <Path Data="M1001.8,617.3 L1001.8,635.3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="19" Margin="1002,617,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="1"/>
+        <Path Data="M1001.8,617.3 L1001.8,635.3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="19" Margin="1012,617,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="1"/>
+        <Image Margin="964,612,383,126" Source="/Deneme/arrow_back_ios_FILL0_wght400_GRAD0_opsz24.png" Stretch="Fill"/>
+        <Image Margin="1032,612,315,126" Source="/Deneme/arrow_forward_ios_FILL0_wght400_GRAD0_opsz24.png" Stretch="Fill"/>
+        <Image Margin="1037,612,310,126" Source="/Deneme/arrow_forward_ios_FILL0_wght400_GRAD0_opsz24.png" Stretch="Fill"/>
+        <Image Margin="959,612,388,126" Source="/Deneme/arrow_back_ios_FILL0_wght400_GRAD0_opsz24.png" Stretch="Fill"/>
+        <Image Margin="589,540,651,106" Source="/Deneme/midle of the night kapak.PNG" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Height="40" Margin="734,553,0,0" TextWrapping="Wrap" Text="Middle Of The Night" VerticalAlignment="Top" Width="185" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="734,573,0,0" TextWrapping="Wrap" Text="Elley Duhé" VerticalAlignment="Top" Width="92" FontSize="16"/>
     </Grid>
 </Page>
