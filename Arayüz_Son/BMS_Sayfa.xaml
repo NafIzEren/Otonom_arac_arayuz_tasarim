@@ -180,5 +180,6 @@
         <Label Content="24" HorizontalAlignment="Left" Height="39" Margin="428,517,0,0" VerticalAlignment="Top" Width="42" FontSize="36" FontFamily="Digital-7" RenderTransformOrigin="0.394,0.436"/>
         <Label Content="25" HorizontalAlignment="Left" Height="39" Margin="426,565,0,0" VerticalAlignment="Top" Width="44" FontSize="36" FontFamily="Digital-7"/>
         <Label Content="26" HorizontalAlignment="Left" Height="39" Margin="426,614,0,0" VerticalAlignment="Top" Width="44" FontSize="36" FontFamily="Digital-7"/>
+        <Rectangle HorizontalAlignment="Left" Height="176" Margin="743,312,0,0" Stroke="Black" VerticalAlignment="Top" Width="265"/>
     </Grid>
 </Page>
