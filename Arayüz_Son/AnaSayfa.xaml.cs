@@ -4,6 +4,7 @@ using FireSharp.Interfaces;
 using FireSharp.Response;
 using Newtonsoft.Json;
 using System;
+using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -14,13 +15,26 @@ namespace Arayüz_Son
     /// </summary>
     public partial class AnaSayfa : Page
     {
+<<<<<<< Updated upstream
 
+=======
+        private Timer timer;
+>>>>>>> Stashed changes
         public AnaSayfa()
         {
             InitializeComponent();
             InitializeMap();
             FirebaseConnet();
-            speedValue();
+            timer = new Timer(RefreshSpeedValue, null, 0, 5000);
+            
+        }
+
+        private void RefreshSpeedValue(object state)
+        {
+            Application.Current.Dispatcher.Invoke(() =>
+            {
+                speedValue();
+            });
         }
         IFirebaseConfig fc = new FirebaseConfig()
         {
@@ -40,7 +54,7 @@ namespace Arayüz_Son
                 Console.WriteLine(ex.ToString());
             }
         }
-
+        
         private void speedValue()
         {
             hız.Text = "";
