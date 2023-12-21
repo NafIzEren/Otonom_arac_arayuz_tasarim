@@ -272,6 +272,10 @@
     <Resource Include="Alt Bar.png" />
     <Resource Include="Deneme\Battery.png" />
     <Resource Include="Deneme\termometre.png" />
+    <Resource Include="Deneme\Buzzer.png" />
+    <Resource Include="Deneme\Damalı_bayrak.png" />
+    <Resource Include="Deneme\Emergency_stop.png" />
+    <Resource Include="Deneme\Fan.png" />
     <Content Include="Deneme\Video_deneme.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
