@@ -12,7 +12,7 @@
         <Rectangle HorizontalAlignment="Left" Height="623" Margin="929,30,0,0" Stroke="Black" VerticalAlignment="Top" Width="404" Fill="Black"/>
         <TextBlock HorizontalAlignment="Left" Height="599" Margin="939,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" Foreground="#FFFFFAFF" FontSize="22" Text="ASDSADASDASDSDSDASDSADSADASDSADASDSADASDSADASDSADSADSDASDSADADSADSADASDASDASDASDASDASDASDSADASDASDADSSAd"/>
         <Rectangle HorizontalAlignment="Left" Height="624" Margin="485,30,0,0" Stroke="Black" VerticalAlignment="Top" Width="439"/>
-        <Button Content="BASLA  " HorizontalAlignment="Left" Height="133" Margin="40,521,0,0" VerticalAlignment="Top" Width="440" Background="#FF001514" BorderBrush="#FF001514" Foreground="#FFFFFAFF" HorizontalContentAlignment="Right" FontSize="72"/>
+        <Button  Content="BASLA  " HorizontalAlignment="Left" Height="133" Margin="40,521,0,0" VerticalAlignment="Top" Width="440" Background="#FF001514" BorderBrush="#FF001514" Foreground="#FFFFFAFF" HorizontalContentAlignment="Right" FontSize="90" Click="Button_Click" FontFamily="Digital-7"/>
         <Image Margin="66,531,1176,124" Source="/Deneme/Damalı_bayrak.png" Stretch="Fill"/>
     </Grid>
 </Page>

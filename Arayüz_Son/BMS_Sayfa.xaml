@@ -46,16 +46,16 @@
         <Path Data="M24,556 L372,556" Fill="#FFFFFAFF" HorizontalAlignment="Left" Height="1" Margin="24,362,0,0" Stretch="Fill" VerticalAlignment="Top" Width="349" Stroke="#FFFFFAFF"/>
         <Path Data="M24,556 L372,556" Fill="#FFFFFAFF" HorizontalAlignment="Left" Height="1" Margin="26,267,0,0" Stretch="Fill" VerticalAlignment="Top" Width="349" Stroke="#FFFFFAFF"/>
         <Rectangle HorizontalAlignment="Left" Height="442" Margin="385,188,0,0" Stroke="Black" VerticalAlignment="Top" Width="678"/>
-        <Button Content="AÇ       " HorizontalAlignment="Left" Height="72" Margin="1104,28,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Foreground="#FFFFFAFF"/>
-        <Button Content="KAPAT   " HorizontalAlignment="Left" Height="72" Margin="1104,111,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" Foreground="#FFFFFAFF"/>
+        <Button x:Name="On" Content="AÇ       " HorizontalAlignment="Left" Height="72" Margin="1104,28,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Foreground="#FFFFFAFF" Click="Fan_On"/>
+        <Button x:Name="Off" Content="KAPAT   " HorizontalAlignment="Left" Height="72" Margin="1104,111,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" Foreground="#FFFFFAFF" Click="Fan_Off"/>
         <Image Margin="1126,113,173,587" Source="/Deneme/Fan.png" Stretch="Fill"/>
-        <Button Content="AÇ       " HorizontalAlignment="Left" Height="72" Margin="1104,501,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Foreground="#FFFFFAFF"/>
-        <Button Content="KAPAT   " HorizontalAlignment="Left" Height="72" Margin="1104,584,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" Foreground="#FFFFFAFF"/>
+        <Button Content="AÇ       " Click="Light_On" HorizontalAlignment="Left" Height="72" Margin="1104,501,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Foreground="#FFFFFAFF"/>
+        <Button Content="KAPAT   " Click="Light_Off" HorizontalAlignment="Left" Height="72" Margin="1104,584,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" Foreground="#FFFFFAFF"/>
         <Image Margin="1126,30,173,670" Source="/Deneme/Fan.png" Stretch="Fill"/>
         <Image Margin="1129,503,173,197" Source="/Deneme/Buzzer.png" Stretch="Fill"/>
         <Image Margin="1129,586,173,114" Source="/Deneme/Buzzer.png" Stretch="Fill"/>
-        <Button Content="AÇ       " HorizontalAlignment="Left" Height="72" Margin="1104,262,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Foreground="#FFFFFAFF"/>
-        <Button Content="KAPAT   " HorizontalAlignment="Left" Height="72" Margin="1104,345,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" Foreground="#FFFFFAFF"/>
+        <Button Content="AÇ       " Click="Stop_On" HorizontalAlignment="Left" Height="72" Margin="1104,262,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Foreground="#FFFFFAFF"/>
+        <Button Content="KAPAT   " Click="Stop_Off" HorizontalAlignment="Left" Height="72" Margin="1104,345,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" Foreground="#FFFFFAFF"/>
         <Image Margin="1129,266,172,438" Source="/Deneme/Emergency_stop.png" Stretch="Fill"/>
         <Image Margin="1129,349,172,355" Source="/Deneme/Emergency_stop.png" Stretch="Fill"/>
     </Grid>

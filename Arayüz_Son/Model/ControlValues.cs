@@ -18,5 +18,6 @@ namespace Arayüz_Son.Model
         public String Batary { get; set; }
         public String CurrentVal { get; set; }
         public String TotalVol { get; set; }
+        public String Fan { get; set; }
     }
 }

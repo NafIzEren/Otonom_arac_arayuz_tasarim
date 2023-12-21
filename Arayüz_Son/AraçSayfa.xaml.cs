@@ -12,6 +12,11 @@ namespace Arayüz_Son
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
 

@@ -37,6 +37,35 @@ namespace Arayüz_Son
             _cancellationTokenSource = new CancellationTokenSource();
             Task.Run(() => RefreshBMSValue(_cancellationTokenSource.Token));
         }
+        private void SendDataToFirebase(string path ,string value)
+        {
+            IFirebaseClient client = FirebaseConnect.Instance.GetClient();
+
+            var controlValues = value ;
+            
+            try
+            {
+
+                if (path == "Fan")
+                {
+                    FirebaseResponse pushResponce = client.Set(@"ControlValues/BMS/Fan", controlValues);
+                    MessageBox.Show($"Firebase'deki {path} değeri güncellendi: {value}");                }
+                else if (path == "Stop")
+                {
+                    FirebaseResponse pushResponce = client.Set(@"ControlValues/BMS/Stop", controlValues);
+                    MessageBox.Show($"Firebase'deki {path} değeri güncellendi: {value}");
+                }
+                else if(path == "Light")
+                {
+                    FirebaseResponse pushResponce = client.Set(@"ControlValues/BMS/Light", controlValues);
+                    MessageBox.Show($"Firebase'deki {path} değeri güncellendi: {value}");
+                }
+
+            }
+            catch (Exception ex) {
+                Console.WriteLine(ex.ToString());
+            }
+        }
         private async void RefreshBMSValue(CancellationToken cancellationToken)
         {
             while (!cancellationToken.IsCancellationRequested)
@@ -99,9 +128,51 @@ namespace Arayüz_Son
 
         }
 
-        private void Btn_Duscart(object sender, RoutedEventArgs e)
+        private async void Btn_Duscart(object sender, RoutedEventArgs e)
         {
+            
+        }
 
+        private void Fan_On(object sender, RoutedEventArgs e)
+        {
+            string path = "Fan";
+            string value = "on";
+           SendDataToFirebase(path,value);
+        }
+
+        private  void Fan_Off(object sender, RoutedEventArgs e)
+        {
+            string path = "Fan";
+            string value = "off";
+            SendDataToFirebase(path, value);
+        }
+
+        private void Stop_On(object sender, RoutedEventArgs e)
+        {
+            string path = "Stop";
+            string value = "on";
+            SendDataToFirebase(path, value);
+        }
+
+        private void Stop_Off(object sender, RoutedEventArgs e)
+        {
+            string path = "Stop";
+            string value = "off";
+            SendDataToFirebase(path, value);
+        }
+
+        private void Light_On(object sender, RoutedEventArgs e)
+        {
+            string path = "Light";
+            string value = "on";
+            SendDataToFirebase(path, value);
+        }
+
+        private void Light_Off(object sender, RoutedEventArgs e)
+        {
+            string path = "Light";
+            string value = "off";
+            SendDataToFirebase(path, value);
         }
     }
 }
