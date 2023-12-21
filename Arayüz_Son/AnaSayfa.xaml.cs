@@ -1,10 +1,11 @@
 ﻿using Arayüz_Son.Model;
-using FireSharp.Config;
+using Arayüz_Son.Services;
 using FireSharp.Interfaces;
 using FireSharp.Response;
 using Newtonsoft.Json;
 using System;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -15,58 +16,47 @@ namespace Arayüz_Son
     /// </summary>
     public partial class AnaSayfa : Page
     {
-<<<<<<< Updated upstream
-
-=======
-        private Timer timer;
->>>>>>> Stashed changes
+        //private Timer timer;
+        IFirebaseClient client;
+        private CancellationTokenSource _cancellationTokenSource;
         public AnaSayfa()
         {
             InitializeComponent();
             InitializeMap();
-            FirebaseConnet();
-            timer = new Timer(RefreshSpeedValue, null, 0, 5000);
-            
+            speedValue();
+            _cancellationTokenSource = new CancellationTokenSource();
+            Task.Run(() => RefreshSpeedValue(_cancellationTokenSource.Token));
         }
 
-        private void RefreshSpeedValue(object state)
+        private async void RefreshSpeedValue(CancellationToken cancellationToken)
         {
-            Application.Current.Dispatcher.Invoke(() =>
+            while (!cancellationToken.IsCancellationRequested) 
             {
-                speedValue();
-            });
-        }
-        IFirebaseConfig fc = new FirebaseConfig()
-        {
-            AuthSecret = "iBmOzWiPc6jJSAcAoEbmHEujviHYKPEMjy3vI3sf",
-            BasePath  = "https://duscartotonom-1419d-default-rtdb.europe-west1.firebasedatabase.app/"
-        };
-        IFirebaseClient client;
-        private void FirebaseConnet() 
-        {
-            try 
-            {
-                client = new FireSharp.FirebaseClient(fc);
-               // MessageBox.Show("Baglandı!");
-            }
-            catch(Exception ex) 
-            {
-                Console.WriteLine(ex.ToString());
+                Application.Current.Dispatcher.Invoke(() =>
+                {
+                    speedValue();
+                });
+                try
+                {
+                    await Task.Delay(TimeSpan.FromSeconds(1),cancellationToken);
+                }catch (TaskCanceledException)
+                {
+                    break;
+                }
             }
         }
-        
         private void speedValue()
         {
-            hız.Text = "";
-
-            FirebaseResponse response = client.Get(@"ControlValues");
+            IFirebaseClient client = FirebaseConnect.Instance.GetClient();
+            
             try
             {
-                if (response == null || string.IsNullOrEmpty(response.Body))
+                if (client == null)
                 {
-                    Console.WriteLine("Firebase response is null or empty.");
+                    Console.WriteLine("Firebase client initialization failed.");
                     return;
                 }
+                FirebaseResponse response = client.Get(@"ControlValues");
 
                 ControlValues controlValues = JsonConvert.DeserializeObject<ControlValues>(response.Body);
 

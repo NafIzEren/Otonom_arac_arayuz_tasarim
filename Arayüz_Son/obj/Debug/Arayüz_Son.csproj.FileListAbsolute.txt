@@ -127,7 +127,6 @@ C:\Users\acely\Source\Repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\Mic
 C:\Users\acely\Source\Repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
 C:\Users\acely\Source\Repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\System.Net.Http.Extensions.xml
 C:\Users\acely\Source\Repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\System.Net.Http.Primitives.xml
-C:\Users\acely\Source\Repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\obj\Debug\Arayüz_Son.csproj.App.config
 C:\Users\PC\source\repos\Arayüz_Son\Arayüz_Son\bin\Debug\FireSharp.dll
 C:\Users\PC\source\repos\Arayüz_Son\Arayüz_Son\bin\Debug\Microsoft.Threading.Tasks.dll
 C:\Users\PC\source\repos\Arayüz_Son\Arayüz_Son\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll

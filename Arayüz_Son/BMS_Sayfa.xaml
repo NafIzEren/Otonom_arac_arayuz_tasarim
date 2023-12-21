@@ -17,13 +17,13 @@
         <Rectangle HorizontalAlignment="Left" Height="124" Margin="744,28,0,0" Stroke="Black" VerticalAlignment="Top" Width="348" Fill="#FF001514"/>
         <Label Content="Hucre Gerilimleri" HorizontalAlignment="Left" Height="40" Margin="68,36,0,0" VerticalAlignment="Top" Width="265" FontSize="36" FontFamily="Digital-7" Foreground="#FFFFFAFF"/>
         <Label Content="Toplam =" HorizontalAlignment="Left" Height="62" Margin="44,82,0,0" VerticalAlignment="Top" Width="180" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="48"/>
-        <Label Content="0.00" HorizontalAlignment="Left" Height="54" Margin="228,82,0,0" VerticalAlignment="Top" Width="105" Foreground="#FFFFFAFF" FontSize="48" FontFamily="Digital-7"/>
+        <Label x:Name="TotalVol" Content="0.00" HorizontalAlignment="Left" Height="54" Margin="228,82,0,0" VerticalAlignment="Top" Width="105" Foreground="#FFFFFAFF" FontSize="48" FontFamily="Digital-7"/>
         <Label Content="AKIM DEGERI" HorizontalAlignment="Left" Height="40" Margin="480,36,0,0" VerticalAlignment="Top" Width="170" FontSize="36" FontFamily="Digital-7" Foreground="#FFFFFAFF"/>
         <Label Content="Sarj Durumu {soc}" HorizontalAlignment="Left" Height="40" Margin="784,36,0,0" VerticalAlignment="Top" Width="279" FontSize="36" FontFamily="Digital-7" Foreground="#FFFFFAFF"/>
-        <Label Content="-10" HorizontalAlignment="Left" Height="54" Margin="495,82,0,0" VerticalAlignment="Top" Width="88" Foreground="#FFFFFAFF" FontSize="48" FontFamily="Digital-7"/>
+        <Label x:Name="CurrentVal" Content="-10" HorizontalAlignment="Left" Height="54" Margin="495,82,0,0" VerticalAlignment="Top" Width="88" Foreground="#FFFFFAFF" FontSize="48" FontFamily="Digital-7"/>
         <Label Content="V" HorizontalAlignment="Left" Height="54" Margin="313,82,0,0" VerticalAlignment="Top" Width="39" Foreground="#FFFFFAFF" FontSize="48" FontFamily="Digital-7"/>
         <Label Content="A" HorizontalAlignment="Left" Height="54" Margin="565,82,0,0" VerticalAlignment="Top" Width="44" Foreground="#FFFFFAFF" FontSize="48" FontFamily="Digital-7"/>
-        <Label Content="100" HorizontalAlignment="Left" Height="54" Margin="884,81,0,0" VerticalAlignment="Top" Width="69" Foreground="#FFFFFAFF" FontSize="48" FontFamily="Digital-7"/>
+        <Label Name="Batary" Content="100" HorizontalAlignment="Left" Height="54" Margin="884,81,0,0" VerticalAlignment="Top" Width="69" Foreground="#FFFFFAFF" FontSize="48" FontFamily="Digital-7"/>
         <Label Content="%" HorizontalAlignment="Left" Height="54" Margin="840,82,0,0" VerticalAlignment="Top" Width="44" Foreground="#FFFFFAFF" FontSize="48" FontFamily="Digital-7"/>
         <Rectangle HorizontalAlignment="Left" Height="475" Margin="24,172,0,0" Stroke="Black" VerticalAlignment="Top" Width="348" Fill="#FF001514"/>
         <Label Content="°C" HorizontalAlignment="Left" Height="64" Margin="280,192,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="54"/>
@@ -31,11 +31,11 @@
         <Label Content="°C" HorizontalAlignment="Left" Height="64" Margin="280,378,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="54"/>
         <Label Content="°C" HorizontalAlignment="Left" Height="64" Margin="280,472,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="54"/>
         <Label Content="°C" HorizontalAlignment="Left" Height="64" Margin="280,570,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="54"/>
-        <Label Content="12" HorizontalAlignment="Left" Height="64" Margin="182,188,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
-        <Label Content="12" HorizontalAlignment="Left" Height="64" Margin="182,282,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
-        <Label Content="12" HorizontalAlignment="Left" Height="64" Margin="182,376,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
-        <Label Content="12" HorizontalAlignment="Left" Height="64" Margin="182,470,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
-        <Label Content="12" HorizontalAlignment="Left" Height="64" Margin="182,566,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
+        <Label x:Name="BatTem" Content="12" HorizontalAlignment="Left" Height="64" Margin="182,188,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
+        <Label x:Name="BatTem1" Content="12" HorizontalAlignment="Left" Height="64" Margin="182,282,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
+        <Label x:Name="BatTem2" Content="12" HorizontalAlignment="Left" Height="64" Margin="182,376,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
+        <Label x:Name="BatTem3" Content="12" HorizontalAlignment="Left" Height="64" Margin="182,470,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
+        <Label x:Name="BatTem4" Content="12" HorizontalAlignment="Left" Height="64" Margin="182,566,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
         <Image Margin="68,182,1254,506" Source="/Deneme/termometre.png" Stretch="Fill"/>
         <Image Margin="68,276,1254,412" Source="/Deneme/termometre.png" Stretch="Fill"/>
         <Image Margin="68,370,1254,318" Source="/Deneme/termometre.png" Stretch="Fill"/>
