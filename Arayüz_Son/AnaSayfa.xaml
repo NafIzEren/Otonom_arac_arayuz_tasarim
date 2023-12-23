@@ -45,5 +45,8 @@
         <Image Margin="589,540,651,106" Source="/Deneme/midle of the night kapak.PNG" Stretch="Fill"/>
         <TextBlock HorizontalAlignment="Left" Height="40" Margin="734,553,0,0" TextWrapping="Wrap" Text="Middle Of The Night" VerticalAlignment="Top" Width="185" FontSize="20"/>
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="734,573,0,0" TextWrapping="Wrap" Text="Elley Duhé" VerticalAlignment="Top" Width="92" FontSize="16"/>
+        <Path Data="M163.8,662 L228,252" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="411" Margin="164,252,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="87"/>
+        <Path x:Name="path" Data="M444,662 L397.8,252" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="411" Margin="376,252,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="87"/>
+        <Image Margin="122,343,855,112" Source="/Deneme/3D Model/arka_poster.png" Stretch="Fill"/>
     </Grid>
 </Page>

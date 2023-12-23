@@ -128,11 +128,6 @@ namespace Arayüz_Son
 
         }
 
-        private async void Btn_Duscart(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
         private void Fan_On(object sender, RoutedEventArgs e)
         {
             string path = "Fan";

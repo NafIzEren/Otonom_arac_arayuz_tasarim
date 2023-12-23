@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('2021 arac.STEP',
+    '2023-12-20T09:17:59',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2023',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = PRODUCT_CONTEXT ( 'NONE', #8, 'mechanical' ) ;
+#2 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #11 ) ;
+#3 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'HERHANG�', '', #5, .NOT_KNOWN. ) ;
+#4 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #5 ) ) ;
+#5 = PRODUCT ( '2021 arac', '2021 arac', '', ( #1 ) ) ;
+#6 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #8 ) ;
+#7 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#8 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#9 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #7, 'design' ) ;
+#10 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #7 ) ;
+#11 = PRODUCT_DEFINITION ( 'BİLİNMEY', '', #3, #9 ) ;
+ENDSEC;
+END-ISO-10303-21;
