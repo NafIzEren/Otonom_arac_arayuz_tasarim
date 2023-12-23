@@ -26,13 +26,13 @@
         <Image Margin="540,30,790,708" Source="/Deneme/Sağ_sinyal.png" Stretch="Fill"/>
         <Image Margin="41,30,1289,708" Source="/Deneme/sol_sinyal.png" Stretch="Fill"/>
         <Image Margin="372,103,959,634" Source="/Deneme/Sis_farı.png" Stretch="Fill"/>
-        <Rectangle HorizontalAlignment="Left" Height="122" Margin="589,540,0,0" Stroke="Black" VerticalAlignment="Top" Width="746" Fill="#FF598A5B"/>
+        <Rectangle HorizontalAlignment="Left" Height="122" Margin="589,540,0,0" Stroke="Black" VerticalAlignment="Top" Width="746" Fill="#FF736BA1"/>
         <Image Margin="212,70,1115,664" Source="/Deneme/Park.png" Stretch="Fill"/>
         <Image Margin="376,72,961,670" Source="/Deneme/Uzunlar.png" Stretch="Fill"/>
         <Image Margin="374,40,962,702" Source="/Deneme/Kısalar.png" Stretch="Fill"/>
         <Image Margin="295,182,1039,517" Source="/Deneme/Dur_Tabelası.png" Stretch="Fill"/>
         <gmap:GMapControl x:Name="gmapControl" Zoom="10" Margin="589,24,31,237" MouseWheelZoomType="ViewCenter" ScaleMode="Dynamic"/>
-        <ProgressBar HorizontalAlignment="Left" Height="3" Margin="720,598,0,0" VerticalAlignment="Top" Width="574" Background="Black" BorderBrush="{x:Null}" Value="60" Foreground="#FF55C96A"/>
+        <ProgressBar HorizontalAlignment="Left" Height="3" Margin="720,598,0,0" VerticalAlignment="Top" Width="574" Background="Black" BorderBrush="{x:Null}" Value="60" Foreground="#FFC52833"/>
         <Ellipse HorizontalAlignment="Left" Height="39" Margin="988,606,0,0" Stroke="Black" VerticalAlignment="Top" Width="39"/>
         <Path Data="M1001.8,617.3 L1001.8,635.3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="19" Margin="1002,617,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="1"/>
         <Path Data="M1001.8,617.3 L1001.8,635.3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="19" Margin="1012,617,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="1"/>
@@ -40,9 +40,8 @@
         <Image Margin="1032,612,315,126" Source="/Deneme/arrow_forward_ios_FILL0_wght400_GRAD0_opsz24.png" Stretch="Fill"/>
         <Image Margin="1037,612,310,126" Source="/Deneme/arrow_forward_ios_FILL0_wght400_GRAD0_opsz24.png" Stretch="Fill"/>
         <Image Margin="959,612,388,126" Source="/Deneme/arrow_back_ios_FILL0_wght400_GRAD0_opsz24.png" Stretch="Fill"/>
-        <Image Margin="589,540,651,106" Source="/Deneme/midle of the night kapak.PNG" Stretch="Fill"/>
-        <TextBlock HorizontalAlignment="Left" Height="40" Margin="734,553,0,0" TextWrapping="Wrap" Text="Middle Of The Night" VerticalAlignment="Top" Width="185" FontSize="20"/>
-        <TextBlock HorizontalAlignment="Left" Height="20" Margin="734,573,0,0" TextWrapping="Wrap" Text="Elley Duhé" VerticalAlignment="Top" Width="92" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="40" Margin="734,553,0,0" TextWrapping="Wrap" Text="TEKNOFEST MARŞI || Tam Bağımsız Türkiye" VerticalAlignment="Top" Width="479" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="734,573,0,0" TextWrapping="Wrap" Text="TEKNOFEST" VerticalAlignment="Top" Width="92" FontSize="16"/>
         <Path Data="M163.8,662 L228,252" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="411" Margin="164,252,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="87"/>
         <Path x:Name="path" Data="M444,662 L397.8,252" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="411" Margin="376,252,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="87"/>
         <Image Margin="122,343,855,112" Source="/Deneme/3D Model/arka_poster.png" Stretch="Fill"/>
@@ -72,5 +71,6 @@
         <Image Margin="185,145,1115,599" Source="/Deneme/stop_ikaz_ısıgı.png" Stretch="Fill"/>
         <Image Margin="371,145,929,599" Source="/Deneme/ikaz_ısığı.png" Stretch="Fill"/>
         <Image Margin="437,135,875,600" Source="/Deneme/elektrik_motoru_arıza.png" Stretch="Fill"/>
+        <Image Margin="590,540,651,106" Source="/Deneme/teknofest.jpg" Stretch="Fill"/>
     </Grid>
 </Page>

@@ -394,6 +394,12 @@
     <Resource Include="Deneme\stop_ikaz_ısıgı.png" />
     <Resource Include="Deneme\Alt_Bar_yeni.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Deneme\teknofest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Deneme\aç_kapa_tuş.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

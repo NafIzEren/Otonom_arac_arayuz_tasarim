@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("deneme/video_deneme.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("deneme/a%c3%a7_kapa_tu%c5%9f.png")]
 
 
