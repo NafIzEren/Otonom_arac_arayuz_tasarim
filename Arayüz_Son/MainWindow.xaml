@@ -11,9 +11,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Frame x:Name="Main" NavigationUIVisibility="Hidden" Height="768" Margin="0,-2,0,2"/>
-        <Image Margin="203,670,913,-2" Source="/Templateler/Duscart_Logo_Bar.png" Stretch="Fill"/>
-        <Image Margin="946,666,221,2" Stretch="Fill" Source="/Templateler/Saat_Bar.png"/>
-        <Button x:Name="Duscart_btn" Content="Button" HorizontalAlignment="Left" Height="62" Margin="235,679,0,0" VerticalAlignment="Top" Width="154" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Btn_Duscart"/>
+        <Image Margin="1157,671,10,-3" Stretch="Fill" Source="/Templateler/Saat_Bar.png"/>
         <Image Margin="450,666,450,14" Source="/Deneme/Alt_Bar_yeni.png" Stretch="Fill"/>
         <Button x:Name="Home_Btn" Content="Button" HorizontalAlignment="Center" Height="74" Margin="0,671,0,0" VerticalAlignment="Top" Width="77" Click="Btn_Home" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.OpacityMask>
@@ -40,6 +38,18 @@
             </Button.OpacityMask>
             <Button.Background>
                 <ImageBrush ImageSource="/Templateler/BMS_Logo_T.png"/>
+            </Button.Background>
+        </Button>
+        <Image Margin="28,674,1138,-6" Stretch="Fill" Source="/Templateler/Saat_Bar.png"/>
+        <Button x:Name="Duscart_btn" Content="Button" HorizontalAlignment="Left" Height="80" Margin="40,676,0,0" VerticalAlignment="Top" Width="155" BorderBrush="{x:Null}" Click="Btn_Duscart">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="/Templateler/duscart_logo.png"/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush ImageSource="/Templateler/duscart_logo.png"/>
+            </Button.Foreground>
+            <Button.Background>
+                <ImageBrush ImageSource="/Templateler/duscart_logo.png"/>
             </Button.Background>
         </Button>
     </Grid>

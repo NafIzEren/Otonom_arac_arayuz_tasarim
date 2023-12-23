@@ -30,7 +30,10 @@ namespace Arayüz_Son
         }
         private void Btn_Duscart(object sender, RoutedEventArgs e)
         {
-
+            Main.Content = new Duscart();
+            Arac_Btn.Background = new SolidColorBrush(turuncu);
+            Home_Btn.Background = new SolidColorBrush(turuncu);
+            BMS_Btn.Background = new SolidColorBrush(turuncu);
         }
 
         private void Btn_Arac(object sender, RoutedEventArgs e)
