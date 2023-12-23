@@ -18,21 +18,19 @@
         <TextBlock x:Name="R" HorizontalAlignment="Left" Height="33" Margin="72,137,0,0" TextWrapping="Wrap" Text="R" VerticalAlignment="Top" Width="20" Foreground="#FFB8B8B8" FontFamily="Digital-7" FontSize="36"/>
         <TextBlock x:Name="N" HorizontalAlignment="Left" Height="33" Margin="97,137,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Width="20" Foreground="#FFB8B8B8" FontFamily="Digital-7" FontSize="36"/>
         <TextBlock x:Name="D" HorizontalAlignment="Left" Height="33" Margin="122,137,0,0" TextWrapping="Wrap" Text="D" VerticalAlignment="Top" Width="20" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="36"/>
-        <Rectangle HorizontalAlignment="Left" Height="27" Margin="493,144,0,0" Stroke="Black" VerticalAlignment="Top" Width="80" Fill="#FF393939"/>
         <TextBlock x:Name="km_h" HorizontalAlignment="Left" Height="34" Margin="258,135,0,0" TextWrapping="Wrap" Text="km/h" VerticalAlignment="Top" Width="105" FontFamily="Digital-7" FontSize="36" FontStretch="SemiCondensed" TextAlignment="Center" Foreground="#FFFFFAFF"/>
-        <Image Margin="444,142,878,595" Source="/Deneme/Akü.png" Stretch="Fill"/>
-        <Image Margin="41,90,1277,635" Source="/Deneme/Dörtlü.png" Stretch="Fill"/>
-        <Image Margin="205,86,1115,645" Source="/Deneme/El_Freni.png" Stretch="Fill"/>
-        <Image Margin="205,128,1115,599" Source="/Deneme/Fren_pedal.png" Stretch="Fill"/>
-        <Image Margin="547,38,784,700" Source="/Deneme/Sağ_sinyal.png" Stretch="Fill"/>
-        <Image Margin="40,37,1290,701" Source="/Deneme/sol_sinyal.png" Stretch="Fill"/>
-        <Image Margin="539,104,784,626" Source="/Deneme/Sis_farı.png" Stretch="Fill"/>
+        <Image Margin="493,98,829,638" Source="/Deneme/Akü.png" Stretch="Fill"/>
+        <Image Margin="41,86,1277,638" Source="/Deneme/Dörtlü.png" Stretch="Fill"/>
+        <Image Margin="212,108,1115,629" Source="/Deneme/El_Freni.png" Stretch="Fill"/>
+        <Image Margin="212,35,1115,699" Source="/Deneme/Fren_pedal.png" Stretch="Fill"/>
+        <Image Margin="540,30,790,708" Source="/Deneme/Sağ_sinyal.png" Stretch="Fill"/>
+        <Image Margin="41,30,1289,708" Source="/Deneme/sol_sinyal.png" Stretch="Fill"/>
+        <Image Margin="372,103,959,634" Source="/Deneme/Sis_farı.png" Stretch="Fill"/>
         <Rectangle HorizontalAlignment="Left" Height="122" Margin="589,540,0,0" Stroke="Black" VerticalAlignment="Top" Width="746" Fill="#FF598A5B"/>
-        <Image Margin="205,41,1115,687" Source="/Deneme/Park.png" Stretch="Fill"/>
-        <Image Margin="463,106,868,629" Source="/Deneme/Uzunlar.png" Stretch="Fill"/>
-        <Image Margin="503,107,827,630" Source="/Deneme/Kısalar.png" Stretch="Fill"/>
+        <Image Margin="212,70,1115,664" Source="/Deneme/Park.png" Stretch="Fill"/>
+        <Image Margin="376,72,961,670" Source="/Deneme/Uzunlar.png" Stretch="Fill"/>
+        <Image Margin="374,40,962,702" Source="/Deneme/Kısalar.png" Stretch="Fill"/>
         <Image Margin="295,182,1039,517" Source="/Deneme/Dur_Tabelası.png" Stretch="Fill"/>
-        <Rectangle HorizontalAlignment="Left" Height="23" Margin="496,146,0,0" Stroke="Black" VerticalAlignment="Top" Width="74" Fill="#FF027C1B"/>
         <gmap:GMapControl x:Name="gmapControl" Zoom="10" Margin="589,24,31,237" MouseWheelZoomType="ViewCenter" ScaleMode="Dynamic"/>
         <ProgressBar HorizontalAlignment="Left" Height="3" Margin="720,598,0,0" VerticalAlignment="Top" Width="574" Background="Black" BorderBrush="{x:Null}" Value="60" Foreground="#FF55C96A"/>
         <Ellipse HorizontalAlignment="Left" Height="39" Margin="988,606,0,0" Stroke="Black" VerticalAlignment="Top" Width="39"/>
@@ -48,5 +46,31 @@
         <Path Data="M163.8,662 L228,252" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="411" Margin="164,252,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="87"/>
         <Path x:Name="path" Data="M444,662 L397.8,252" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="411" Margin="376,252,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="87"/>
         <Image Margin="122,343,855,112" Source="/Deneme/3D Model/arka_poster.png" Stretch="Fill"/>
+        <Image Margin="516,113,766,620" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <ProgressBar HorizontalAlignment="Left" Height="73" Margin="543,98,0,0" VerticalAlignment="Top" Width="30" BorderBrush="#FF001514" Background="#FF001514" Foreground="#FF598A5B" Value="65" RenderTransformOrigin="0.5,0.5" Orientation="Vertical">
+            <ProgressBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+        <Image Margin="89,87,1231,638" Source="/Deneme/kapı_açık.png" Stretch="Fill"/>
+        <Image Margin="423,73,902,671" Source="/Deneme/park_lambaları.png" Stretch="Fill"/>
+        <Image Margin="493,130,828,599" Source="/Deneme/elektroteknik_arıza.png" Stretch="Fill"/>
+        <Image Margin="185,145,1115,599" Source="/Deneme/stop_ikaz_ısıgı.png" Stretch="Fill"/>
+        <Image Margin="371,145,929,599" Source="/Deneme/ikaz_ısığı.png" Stretch="Fill"/>
+        <Image Margin="437,135,875,600" Source="/Deneme/elektrik_motoru_arıza.png" Stretch="Fill"/>
     </Grid>
 </Page>

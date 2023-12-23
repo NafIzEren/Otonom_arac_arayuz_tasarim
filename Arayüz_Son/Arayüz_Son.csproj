@@ -274,10 +274,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Services\FirebaseConnect.cs" />
-    <Page Include="AKS_Sayfa.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="AnaSayfa.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -294,17 +290,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="InfoSayfa.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="AKS_Sayfa.xaml.cs">
-      <DependentUpon>AKS_Sayfa.xaml</DependentUpon>
-    </Compile>
     <Compile Include="AnaSayfa.xaml.cs">
       <DependentUpon>AnaSayfa.xaml</DependentUpon>
     </Compile>
@@ -320,9 +309,6 @@
     </Compile>
     <Compile Include="Duscart.xaml.cs">
       <DependentUpon>Duscart.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="InfoSayfa.xaml.cs">
-      <DependentUpon>InfoSayfa.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -361,35 +347,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Templateler\Component_Sayfası.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Templateler\Component_Çerçevesi.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Templateler\duscart_logo_deneme.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Templateler\AKS_Logo_B.png" />
     <Resource Include="Templateler\Ana_Sayfa_B.png" />
     <Resource Include="Templateler\Araç_Logo_B.png" />
     <Resource Include="Templateler\BMS_Logo_B.png" />
-    <Resource Include="Templateler\Info_Logo_B.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Templateler\AKS_Logo_T.png" />
     <Resource Include="Templateler\Ana_Sayfa_T.png" />
     <Resource Include="Templateler\Araç_Logo_T.png" />
     <Resource Include="Templateler\BMS_Logo_T.png" />
-    <Resource Include="Templateler\Info_Logo_T.png" />
     <Resource Include="Templateler\Alt Bar.png" />
     <Resource Include="Templateler\Duscart_Logo_Bar.png" />
     <Resource Include="Templateler\Saat_Bar.png" />
     <Resource Include="Saat_Bar.png" />
     <Resource Include="Duscart_Logo_Bar.png" />
-    <Resource Include="Vid.mp4">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
     <Resource Include="Deneme\Dikkat_Tabelası.png" />
     <Resource Include="Deneme\Dur_Tabelası.png" />
     <Resource Include="Deneme\Kısalar.png" />
@@ -403,13 +376,8 @@
     <Resource Include="Deneme\Park.png" />
     <Resource Include="Deneme\Sağ_sinyal.png" />
     <Resource Include="Deneme\Sis_farı.png" />
-    <Resource Include="Deneme\arrow_back_ios_FILL0_wght400_GRAD0_opsz24.png" />
-    <Resource Include="Deneme\arrow_forward_ios_FILL0_wght400_GRAD0_opsz24.png" />
     <Resource Include="Deneme\mode_off_on_FILL0_wght400_GRAD0_opsz24.png" />
-    <Resource Include="Deneme\speed_FILL0_wght400_GRAD0_opsz24.png" />
-    <Resource Include="Deneme\traffic_FILL0_wght400_GRAD0_opsz24.png" />
     <Resource Include="Deneme\midle of the night kapak.PNG" />
-    <Resource Include="Alt Bar.png" />
     <Resource Include="Deneme\Battery.png" />
     <Resource Include="Deneme\termometre.png" />
     <Resource Include="Deneme\Buzzer.png" />
@@ -418,7 +386,13 @@
     <Resource Include="Deneme\Fan.png" />
     <Resource Include="Deneme\3D Model\poster.png" />
     <Resource Include="Deneme\3D Model\arka_poster.png" />
-    <Content Include="Deneme\Video_deneme.mp4" />
+    <Resource Include="Deneme\elektrik_motoru_arıza.png" />
+    <Resource Include="Deneme\elektroteknik_arıza.png" />
+    <Resource Include="Deneme\ikaz_ısığı.png" />
+    <Resource Include="Deneme\kapı_açık.png" />
+    <Resource Include="Deneme\park_lambaları.png" />
+    <Resource Include="Deneme\stop_ikaz_ısıgı.png" />
+    <Resource Include="Deneme\Alt_Bar_yeni.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -49,7 +49,7 @@ namespace Arayüz_Son {
         #line hidden
         
         
-        #line 17 "..\..\MainWindow.xaml"
+        #line 16 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button Duscart_btn;
         
@@ -75,23 +75,7 @@ namespace Arayüz_Son {
         
         #line 37 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button Info_Btn;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 45 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button BMS_Btn;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 53 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button AKS_Btn;
         
         #line default
         #line hidden
@@ -132,7 +116,7 @@ namespace Arayüz_Son {
             case 2:
             this.Duscart_btn = ((System.Windows.Controls.Button)(target));
             
-            #line 17 "..\..\MainWindow.xaml"
+            #line 16 "..\..\MainWindow.xaml"
             this.Duscart_btn.Click += new System.Windows.RoutedEventHandler(this.Btn_Duscart);
             
             #line default
@@ -157,28 +141,10 @@ namespace Arayüz_Son {
             #line hidden
             return;
             case 5:
-            this.Info_Btn = ((System.Windows.Controls.Button)(target));
-            
-            #line 37 "..\..\MainWindow.xaml"
-            this.Info_Btn.Click += new System.Windows.RoutedEventHandler(this.Btn_Info);
-            
-            #line default
-            #line hidden
-            return;
-            case 6:
             this.BMS_Btn = ((System.Windows.Controls.Button)(target));
             
-            #line 45 "..\..\MainWindow.xaml"
+            #line 37 "..\..\MainWindow.xaml"
             this.BMS_Btn.Click += new System.Windows.RoutedEventHandler(this.Btn_BMS);
-            
-            #line default
-            #line hidden
-            return;
-            case 7:
-            this.AKS_Btn = ((System.Windows.Controls.Button)(target));
-            
-            #line 53 "..\..\MainWindow.xaml"
-            this.AKS_Btn.Click += new System.Windows.RoutedEventHandler(this.Btn_AKS);
             
             #line default
             #line hidden
