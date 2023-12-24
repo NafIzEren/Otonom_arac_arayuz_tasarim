@@ -76,7 +76,8 @@ namespace Arayüz_Son
                 });
                 try
                 {
-                    await Task.Delay(TimeSpan.FromSeconds(1), cancellationToken);
+                    await Task.Delay(TimeSpan.FromSeconds(2), cancellationToken);
+                   
                 }
                 catch (TaskCanceledException)
                 {
@@ -85,9 +86,9 @@ namespace Arayüz_Son
             }
         }
 
-        public void getBMSValue()
+        public async void getBMSValue()
         {
-            BatTem.Content = "";
+            BatTem.Text = "";
             BatTem1.Content = "";
             BatTem2.Content = "";
             BatTem3.Content = "";
@@ -100,12 +101,16 @@ namespace Arayüz_Son
 
             try
             {
-                FirebaseResponse response = client.Get(@"ControlValues/BMS");
+                var responseTask = client.GetAsync(@"ControlValues/BMS");
+
+                await Task.WhenAll(responseTask);
+
+                var response = responseTask.Result;
                 ControlValues controlValues = JsonConvert.DeserializeObject<ControlValues>(response.Body);
             
                 if (controlValues != null )
                 {
-                    BatTem.Content = controlValues.BatTem.ToString();
+                    BatTem.Text = controlValues.BatTem.ToString();
                     BatTem1.Content = controlValues.BatTem1.ToString();
                     BatTem2.Content = controlValues.BatTem2.ToString();
                     BatTem3.Content = controlValues.BatTem3.ToString();

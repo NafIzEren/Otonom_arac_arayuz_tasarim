@@ -41,17 +41,17 @@ namespace Arayüz_Son
                 });
                 try
                 {
-                    await Task.Delay(TimeSpan.FromSeconds(1),cancellationToken);
+                    await Task.Delay(TimeSpan.FromSeconds(5),cancellationToken);
                 }catch (TaskCanceledException)
                 {
                     break;
                 }
             }
         }
-        private void speedValue()
+        private async void speedValue()
         {
             IFirebaseClient client = FirebaseConnect.Instance.GetClient();
-            
+            myProgessBar.Value = 0;
             try
             {
                 if (client == null)
@@ -59,13 +59,26 @@ namespace Arayüz_Son
                     Console.WriteLine("Firebase client initialization failed.");
                     return;
                 }
-                FirebaseResponse response = client.Get(@"ControlValues");
+                var responseTask = client.GetAsync(@"ControlValues");
+                var responseBmsTask = client.GetAsync(@"ControlValues/BMS");
+
+                await Task.WhenAll(responseTask, responseBmsTask);
+
+                var response = responseTask.Result;
+                var responseBMS = responseBmsTask.Result;
 
                 ControlValues controlValues = JsonConvert.DeserializeObject<ControlValues>(response.Body);
+                ControlValues controlValuesBMS = JsonConvert.DeserializeObject<ControlValues>(responseBMS.Body);
+
 
                 if (controlValues != null)
                 {
-                    hız.Text = controlValues.Hız.ToString();
+                    Application.Current.Dispatcher.Invoke(() =>
+                    {
+                        hız.Text = controlValues.Hız.ToString();
+                        int.TryParse(controlValuesBMS.Batary, out int bataryValue);
+                        myProgessBar.Value = bataryValue;
+                    });
                 }
                 else
                 {
@@ -91,6 +104,11 @@ namespace Arayüz_Son
             gmapControl.MinZoom = 1;
             gmapControl.MaxZoom = 20;
             gmapControl.Zoom = 15;
+        }
+
+        private void ProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            
         }
     }
 }

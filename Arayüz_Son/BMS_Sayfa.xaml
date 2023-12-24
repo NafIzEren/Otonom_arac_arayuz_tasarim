@@ -31,7 +31,7 @@
         <Label Content="°C" HorizontalAlignment="Left" Height="64" Margin="280,378,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="54"/>
         <Label Content="°C" HorizontalAlignment="Left" Height="64" Margin="280,472,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="54"/>
         <Label Content="°C" HorizontalAlignment="Left" Height="64" Margin="280,570,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="54"/>
-        <Label x:Name="BatTem" Content="12" HorizontalAlignment="Left" Height="64" Margin="182,188,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
+        <TextBlock x:Name="BatTem" Text="12" HorizontalAlignment="Left" Height="64" Margin="182,188,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
         <Label x:Name="BatTem1" Content="12" HorizontalAlignment="Left" Height="64" Margin="182,282,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
         <Label x:Name="BatTem2" Content="12" HorizontalAlignment="Left" Height="64" Margin="182,376,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
         <Label x:Name="BatTem3" Content="12" HorizontalAlignment="Left" Height="64" Margin="182,470,0,0" VerticalAlignment="Top" Width="72" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="60"/>
