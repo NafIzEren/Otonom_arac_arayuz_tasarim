@@ -27,7 +27,24 @@ namespace Arayüz_Son
         public MainWindow()
         {
             InitializeComponent();
+            startclock();
         }
+
+        private void startclock()
+        {
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += tickevent;
+            timer.Start();
+        }
+
+        private void tickevent(object sender, EventArgs e)
+        {
+            //throw new NotImplementedException();
+            saat.Text = DateTime.Now.ToString(@"T");
+            tarih.Text = DateTime.Now.ToString(@"D");
+        }
+
         private void Btn_Duscart(object sender, RoutedEventArgs e)
         {
             Main.Content = new Duscart();
