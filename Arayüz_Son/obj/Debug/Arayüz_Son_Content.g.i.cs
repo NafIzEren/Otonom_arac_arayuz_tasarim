@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("templateler/otonom_duscartt.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("deneme/peddallar-siyah%20(1).jpeg")]
 
 

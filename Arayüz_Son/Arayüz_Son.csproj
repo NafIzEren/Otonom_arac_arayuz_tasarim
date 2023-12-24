@@ -65,6 +65,9 @@
     <Reference Include="GMap.NET.WindowsPresentation, Version=2.1.7.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
       <HintPath>..\packages\GMap.NET.WinPresentation.2.1.7\lib\net48\GMap.NET.WindowsPresentation.dll</HintPath>
     </Reference>
+    <Reference Include="HandyControl, Version=3.4.0.0, Culture=neutral, PublicKeyToken=45be8712787a1e5b, processorArchitecture=MSIL">
+      <HintPath>..\packages\HandyControl.3.4.0\lib\net48\HandyControl.dll</HintPath>
+    </Reference>
     <Reference Include="HelixToolkit, Version=2.24.0.0, Culture=neutral, PublicKeyToken=52aa3500039caf0d, processorArchitecture=MSIL">
       <HintPath>..\packages\HelixToolkit.2.24.0\lib\netstandard2.0\HelixToolkit.dll</HintPath>
     </Reference>
@@ -285,6 +288,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="deneme_sayfa.xaml.cs">
+      <DependentUpon>deneme_sayfa.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Services\FirebaseConnect.cs" />
     <Page Include="AnaSayfa.xaml">
       <SubType>Designer</SubType>
@@ -295,6 +301,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="BMS_Sayfa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="deneme_sayfa.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

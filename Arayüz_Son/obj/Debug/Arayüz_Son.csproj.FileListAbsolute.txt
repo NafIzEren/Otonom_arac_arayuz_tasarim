@@ -346,3 +346,16 @@ C:\Users\acely\source\repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\Sys
 C:\Users\acely\source\repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\acely\source\repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\acely\source\repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\System.Text.Json.xml
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\HandyControl.dll
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\Mono.Cecil.dll
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\HandyControl.xml
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\Mono.Cecil.pdb
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\Mono.Cecil.Mdb.pdb
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\Mono.Cecil.Pdb.pdb
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\Mono.Cecil.Rocks.pdb
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\obj\Debug\deneme_sayfa.g.cs
+C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\obj\Debug\deneme_sayfa.baml

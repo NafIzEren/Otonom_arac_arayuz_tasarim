@@ -4,20 +4,20 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Arayüz_Son"
-      xmlns:Helix="clr-namespace:HelixToolkit.Wpf;assembly=HelixToolkit.Wpf">
+      xmlns:Helix="clr-namespace:HelixToolkit.Wpf;assembly=HelixToolkit.Wpf" xmlns:hc="https://handyorg.github.io/handycontrol">
 
 
     <Grid Width="1366" Height="768" Background="#FF001514">
         <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF6E6362"/>
         <Image Margin="378,-42,335,187" Source="/Deneme/3D Model/poster.png" Stretch="Fill"/>
-        <TextBlock HorizontalAlignment="Left" Height="205" Margin="128,237,0,0" TextWrapping="Wrap" Text="Harita kalkacak. Onun yerine uzaktan kontrol sistemi gelecek." VerticalAlignment="Top" Width="265" Background="White" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Left" Height="114" Margin="-329,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" Background="White" FontSize="36"><Run Language="tr-tr" Text="U"/><Run Text="zaktan kontrol sistemi gelecek."/></TextBlock>
         <Rectangle HorizontalAlignment="Left" Height="623" Margin="929,30,0,0" Stroke="Black" VerticalAlignment="Top" Width="404" Fill="Black"/>
         <TextBlock HorizontalAlignment="Left" Height="599" Margin="939,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" Foreground="#FFFFFAFF" FontSize="22" Text="ASDSADASDASDSDSDASDSADSADASDSADASDSADASDSADASDSADSADSDASDSADADSADSADASDASDASDASDASDASDASDSADASDASDADSSAd"/>
         <Rectangle HorizontalAlignment="Left" Height="624" Margin="485,30,0,0" Stroke="Black" VerticalAlignment="Top" Width="439"/>
         <Button  Content="BASLA  " HorizontalAlignment="Left" Height="133" Margin="40,521,0,0" VerticalAlignment="Top" Width="440" Background="#FF001514" BorderBrush="#FF001514" Foreground="#FFFFFAFF" HorizontalContentAlignment="Right" FontSize="90" Click="Button_Click" FontFamily="Digital-7"/>
         <Button Content="BASLA  " HorizontalAlignment="Left" Height="133" Margin="40,521,0,0" VerticalAlignment="Top" Width="440" Background="#FF001514" BorderBrush="#FF001514" Foreground="#FFFFFAFF" HorizontalContentAlignment="Right" FontSize="90" FontFamily="Digital-7"/>
         <Image Margin="66,531,1176,124" Source="/Deneme/Damalı_bayrak.png" Stretch="Fill"/>
-        <Rectangle HorizontalAlignment="Left" Height="57" Margin="421,459,0,0" Stroke="Black" VerticalAlignment="Top" Width="59"/>
+        <Rectangle HorizontalAlignment="Left" Height="57" Margin="747,598,0,0" Stroke="Black" VerticalAlignment="Top" Width="59"/>
         <Rectangle HorizontalAlignment="Left" Height="57" Margin="866,597,0,0" Stroke="Black" VerticalAlignment="Top" Width="58"/>
         <Button x:Name="ışık_Btn" HorizontalAlignment="Left" Height="51" Margin="866,600,0,0" VerticalAlignment="Top" Width="56" BorderBrush="{x:Null}">
             <Button.OpacityMask>
@@ -42,7 +42,7 @@
                 <ImageBrush ImageSource="/Templateler/araç_kapı.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="powe_Btn" HorizontalAlignment="Left" Height="51" Margin="426,462,0,0" VerticalAlignment="Top" Width="50" BorderBrush="{x:Null}">
+        <Button x:Name="powe_Btn" HorizontalAlignment="Left" Height="51" Margin="752,600,0,0" VerticalAlignment="Top" Width="50" BorderBrush="{x:Null}">
             <Button.OpacityMask>
                 <ImageBrush ImageSource="/Deneme/aç_kapa_tuş.png"/>
             </Button.OpacityMask>
@@ -54,6 +54,26 @@
             </Button.Background>
         </Button>
         <Rectangle HorizontalAlignment="Left" Height="179" Margin="40,30,0,0" Stroke="Black" VerticalAlignment="Top" Width="440"/>
-        <TextBlock HorizontalAlignment="Left" Height="148" Margin="66,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="368" FontSize="36"><Run Language="tr-tr" Text="Aracın 3 boyutlu podyum görüntüsü gelecek"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <Rectangle HorizontalAlignment="Left" Height="128" Margin="41,228,0,0" Stroke="Black" VerticalAlignment="Top" Width="129" Fill="#FF001514"/>
+        <TextBlock HorizontalAlignment="Left" Height="62" Margin="53,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" Foreground="#FFFFFAFF" FontSize="48" TextAlignment="Center" TextDecorations="Underline" FontWeight="Bold"><Run Language="tr-tr" Text="GAZ"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <Rectangle HorizontalAlignment="Left" Height="128" Margin="184,228,0,0" Stroke="Black" VerticalAlignment="Top" Width="129" Fill="#FF001514"/>
+        <TextBlock HorizontalAlignment="Left" Height="65" Margin="188,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" Foreground="#FFFFFAFF" FontSize="48" TextAlignment="Center" TextDecorations="Underline" FontWeight="Bold"><Run Language="tr-tr" Text="FREN"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="61" Margin="41,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47" Foreground="#FFFFFAFF" FontFamily="Digital-7
+" FontSize="72"><Run Language="tr-tr" Text="%"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="61" Margin="188,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47" Foreground="#FFFFFAFF" FontFamily="Digital-7 " FontSize="72"><Run Language="tr-tr" Text="%"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="61" Margin="87,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" Foreground="#FFFFFAFF" FontFamily="Digital-7 " FontSize="72"><Run Language="tr-tr" Text="100"/><LineBreak/><Run Language="tr-tr"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="61" Margin="230,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" Foreground="#FFFFFAFF" FontFamily="Digital-7 " FontSize="72"><Run Language="tr-tr" Text="100"/><LineBreak/><Run Language="tr-tr"/><LineBreak/><Run/></TextBlock>
+        <Rectangle HorizontalAlignment="Left" Height="128" Margin="40,372,0,0" Stroke="Black" VerticalAlignment="Top" Width="129" Fill="#FF001514"/>
+        <Rectangle HorizontalAlignment="Left" Height="128" Margin="182,372,0,0" Stroke="Black" VerticalAlignment="Top" Width="129" Fill="#FF001514"/>
+        <TextBlock HorizontalAlignment="Left" Height="62" Margin="50,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" Foreground="#FFFFFAFF" FontSize="48" TextAlignment="Center" TextDecorations="Underline" FontWeight="Bold"><Run Language="tr-tr" Text="HP"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="62" Margin="192,360,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" Foreground="#FFFFFAFF" FontSize="48" TextAlignment="Center" TextDecorations="Underline" FontWeight="Bold"><Run Language="tr-tr" Text="NM"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="61" Margin="64,424,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" Foreground="#FFFFFAFF" FontFamily="Digital-7 " FontSize="72"><Run Language="tr-tr" Text="96"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="61" Margin="210,424,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" Foreground="#FFFFFAFF" FontFamily="Digital-7 " FontSize="72"><Run Language="tr-tr" Text="127"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <Rectangle HorizontalAlignment="Left" Height="85" Margin="318,217,0,0" Stroke="Black" VerticalAlignment="Top" Width="162" Fill="#FF001514"/>
+        <Rectangle HorizontalAlignment="Left" Height="85" Margin="318,322,0,0" Stroke="Black" VerticalAlignment="Top" Width="162" Fill="#FF001514"/>
+        <Rectangle HorizontalAlignment="Left" Height="85" Margin="318,424,0,0" Stroke="Black" VerticalAlignment="Top" Width="162" Fill="#FF001514"/>
+        <TextBlock HorizontalAlignment="Left" Height="64" Margin="335,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" FontSize="48" FontFamily="Georgia" Foreground="#FFFFFAFF" TextAlignment="Center"><Run Language="tr-tr" Text="ECO"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="64" Margin="315,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" FontSize="40" FontFamily="Georgia" Foreground="#FFFFFAFF" TextAlignment="Center"><Run Language="tr-tr" Text="STREET"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="64" Margin="316,436,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" FontSize="45" FontFamily="Georgia" Foreground="#FFFFFAFF" TextAlignment="Center"><Run Language="tr-tr" Text="TRACK"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
     </Grid>
 </Page>
