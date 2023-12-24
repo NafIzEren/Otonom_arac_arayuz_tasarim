@@ -10,6 +10,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        <Image Margin="0,-2,0,-6" Source="/Templateler/duscart_logo_deneme.png" Stretch="Fill" Opacity="0.5"/>
         <Frame x:Name="Main" NavigationUIVisibility="Hidden" Height="768" Margin="0,-2,0,2"/>
         <Image Margin="1157,671,10,-3" Stretch="Fill" Source="/Templateler/Saat_Bar.png"/>
         <Image Margin="450,666,450,14" Source="/Deneme/Alt_Bar_yeni.png" Stretch="Fill"/>
@@ -52,5 +53,7 @@
                 <ImageBrush ImageSource="/Templateler/duscart_logo.png"/>
             </Button.Background>
         </Button>
+        <TextBlock x:Name="saat" HorizontalAlignment="Left" Height="26" Margin="1194,684,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" FontSize="20" TextAlignment="Center" FontFamily="Franklin Gothic Medium" Foreground="#FF001514"/>
+        <TextBlock x:Name="tarih" HorizontalAlignment="Left" Height="24" Margin="1177,713,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" FontSize="20" TextAlignment="Center" FontFamily="Franklin Gothic Medium" Foreground="#FF001514"/>
     </Grid>
 </Window>

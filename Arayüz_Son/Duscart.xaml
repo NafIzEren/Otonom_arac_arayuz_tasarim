@@ -9,6 +9,14 @@
 
     <Grid Width="1366" Height="768" Background="#FF001514">
         <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF6E6362"/>
+        <Image Margin="20,10,10,10" Source="/Templateler/duscart_logo_deneme.png" Stretch="Fill" Opacity="0.12"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="110" Margin="135,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="374" FontSize="100" FontFamily="Impact"><Run Language="tr-tr" Text="DUSCART"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="245" Margin="63,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="502" FontSize="22"><Run Text="Ekibimiz Kütahya Dumlupınar Üniversitesi bünyesinde mühendislik fakültesi öğrencileri tarafından 2009 yılında kurulmuştur. 2010 yılından itibaren alternatif enerjili araçlar yarışlarına katılmaktadır. DUSCART ekibi olarak bu yolda çıktığımız ilk günden itibaren hızlı adımlarla, güçlü ekip ruhuyla ve teknolojiye olan tutkumuzla çalışmalarımızı sürdürmekteyiz."/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="110" Margin="768,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="513" FontSize="72" FontFamily="Impact"><Run Language="tr-tr" Text="Otonom Aracımız"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="300" Margin="632,364,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="709" FontSize="22" Text="2022 yılından itibaren Robotaksi-Binek Otonom Araç Yarışması’na katılan bir ekip olarak her yıl tasarımını ve yazılımlarını güncellediğimiz araçlar üretmekteyiz. Tasarladığımını ve imalatını yaptığımız şase ve kaporta karbon fiber malzemeden yapılmaktadır .Aracımızda yapay zeka algoritmaları, LIDAR sensörler ve kameralar kullanarak otonom sürüş yeteneği sağlanmaktadır. Güvenli ve çevre dostu bir otonom sürüş için otonom kontrol algoritmalarının , engelleri tespit eden sistemlerin ve en iyi karar verme algoritmalarının yazılımları geliştirilerek oluşturulmaktadır. Yazılımlarımız gelecekte hayatımızın bir parçası haline gelcek otonom arçların gelişimine öncülük etmektedir."/>
+        <Image Margin="832,34,225,494" Source="/Templateler/Otonom_Duscartt.jpg" Stretch="Fill"/>
+        <Rectangle HorizontalAlignment="Left" Height="240" Margin="832,34,0,0" Stroke="Black" VerticalAlignment="Top" Width="309"/>
 
     </Grid>
 </Page>
