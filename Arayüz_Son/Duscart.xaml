@@ -8,6 +8,7 @@
       Title="Duscart" Height="768" Width="1366">
 
     <Grid Width="1366" Height="768" Background="#FF001514">
-        
+        <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF6E6362"/>
+
     </Grid>
 </Page>

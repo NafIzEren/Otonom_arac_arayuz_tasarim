@@ -11,11 +11,9 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Frame x:Name="Main" NavigationUIVisibility="Hidden" Height="768" Margin="0,-2,0,2"/>
-        <Image Margin="363,668,353,0" Source="/Templateler/Alt Bar.png" Stretch="Fill"/>
-        <Image Margin="85,670,1031,-2" Source="/Templateler/Duscart_Logo_Bar.png" Stretch="Fill"/>
-        <Image Margin="1082,670,85,-2" Stretch="Fill" Source="/Templateler/Saat_Bar.png"/>
-        <Button x:Name="Duscart_btn" Content="Button" HorizontalAlignment="Left" Height="62" Margin="117,679,0,0" VerticalAlignment="Top" Width="154" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Btn_Duscart"/>
-        <Button x:Name="Home_Btn" Content="Button" HorizontalAlignment="Center" Height="74" Margin="0,676,0,0" VerticalAlignment="Top" Width="77" Click="Btn_Home" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        <Image Margin="1157,671,10,-3" Stretch="Fill" Source="/Templateler/Saat_Bar.png"/>
+        <Image Margin="450,666,450,14" Source="/Deneme/Alt_Bar_yeni.png" Stretch="Fill"/>
+        <Button x:Name="Home_Btn" Content="Button" HorizontalAlignment="Center" Height="74" Margin="0,671,0,0" VerticalAlignment="Top" Width="77" Click="Btn_Home" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.OpacityMask>
                 <ImageBrush ImageSource="/Templateler/Ana_Sayfa_B.png"/>
             </Button.OpacityMask>
@@ -23,7 +21,7 @@
                 <ImageBrush ImageSource="/Templateler/Ana_Sayfa_T.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="Arac_Btn" Content="Button" HorizontalAlignment="Left" Height="71" Margin="745,679,0,0" VerticalAlignment="Top" Width="90" BorderBrush="{x:Null}" Click="Btn_Arac">
+        <Button x:Name="Arac_Btn" Content="Button" HorizontalAlignment="Left" Height="71" Margin="791,674,0,0" VerticalAlignment="Top" Width="90" BorderBrush="{x:Null}" Click="Btn_Arac">
             <Button.OpacityMask>
                 <ImageBrush ImageSource="/Templateler/Araç_Logo_B.png"/>
             </Button.OpacityMask>
@@ -34,15 +32,7 @@
                 <ImageBrush ImageSource="/Templateler/Araç_Logo_T.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="Info_Btn" Content="Button" HorizontalAlignment="Left" Height="74" Margin="535,676,0,0" VerticalAlignment="Top" Width="88" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Btn_Info">
-            <Button.OpacityMask>
-                <ImageBrush ImageSource="/Templateler/Info_Logo_B.png"/>
-            </Button.OpacityMask>
-            <Button.Background>
-                <ImageBrush ImageSource="/Templateler/Info_Logo_T.png"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="BMS_Btn" Content="Button" HorizontalAlignment="Left" Height="52" Margin="406,687,0,0" VerticalAlignment="Top" Width="122" Click="Btn_BMS" BorderBrush="{x:Null}" Foreground="{x:Null}">
+        <Button x:Name="BMS_Btn" Content="Button" HorizontalAlignment="Left" Height="52" Margin="472,684,0,0" VerticalAlignment="Top" Width="122" Click="Btn_BMS" BorderBrush="{x:Null}" Foreground="{x:Null}">
             <Button.OpacityMask>
                 <ImageBrush ImageSource="/Templateler/BMS_Logo_B.png"/>
             </Button.OpacityMask>
@@ -50,12 +40,16 @@
                 <ImageBrush ImageSource="/Templateler/BMS_Logo_T.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="AKS_Btn" Content="Button" HorizontalAlignment="Left" Height="56" Margin="846,685,0,0" VerticalAlignment="Top" Width="115" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Btn_AKS">
+        <Image Margin="28,674,1138,-6" Stretch="Fill" Source="/Templateler/Saat_Bar.png"/>
+        <Button x:Name="Duscart_btn" Content="Button" HorizontalAlignment="Left" Height="80" Margin="40,676,0,0" VerticalAlignment="Top" Width="155" BorderBrush="{x:Null}" Click="Btn_Duscart">
             <Button.OpacityMask>
-                <ImageBrush ImageSource="/Templateler/AKS_Logo_B.png"/>
+                <ImageBrush ImageSource="/Templateler/duscart_logo.png"/>
             </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush ImageSource="/Templateler/duscart_logo.png"/>
+            </Button.Foreground>
             <Button.Background>
-                <ImageBrush ImageSource="/Templateler/AKS_Logo_T.png"/>
+                <ImageBrush ImageSource="/Templateler/duscart_logo.png"/>
             </Button.Background>
         </Button>
     </Grid>

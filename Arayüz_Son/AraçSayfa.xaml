@@ -9,20 +9,50 @@
 
     <Grid Width="1366" Height="768" Background="#FF001514">
         <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF6E6362"/>
-        <Image Margin="420,103,376,115" Source="/Deneme/3D Model/poster.png" Stretch="Fill"/>
-        <TextBlock HorizontalAlignment="Left" Height="279" Margin="86,86,0,0" TextWrapping="Wrap" Text="Harita kalkacak. Onun yerine uzaktan kontrol sistemi gelecek." VerticalAlignment="Top" Width="265" Background="White" FontSize="36"/>
+        <Image Margin="378,-42,335,187" Source="/Deneme/3D Model/poster.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Height="279" Margin="128,30,0,0" TextWrapping="Wrap" Text="Harita kalkacak. Onun yerine uzaktan kontrol sistemi gelecek." VerticalAlignment="Top" Width="265" Background="White" FontSize="36"/>
         <Rectangle HorizontalAlignment="Left" Height="623" Margin="929,30,0,0" Stroke="Black" VerticalAlignment="Top" Width="404" Fill="Black"/>
         <TextBlock HorizontalAlignment="Left" Height="599" Margin="939,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" Foreground="#FFFFFAFF" FontSize="22" Text="ASDSADASDASDSDSDASDSADSADASDSADASDSADASDSADASDSADSADSDASDSADADSADSADASDASDASDASDASDASDASDSADASDASDADSSAd"/>
         <Rectangle HorizontalAlignment="Left" Height="624" Margin="485,30,0,0" Stroke="Black" VerticalAlignment="Top" Width="439"/>
         <Button  Content="BASLA  " HorizontalAlignment="Left" Height="133" Margin="40,521,0,0" VerticalAlignment="Top" Width="440" Background="#FF001514" BorderBrush="#FF001514" Foreground="#FFFFFAFF" HorizontalContentAlignment="Right" FontSize="90" Click="Button_Click" FontFamily="Digital-7"/>
         <Button Content="BASLA  " HorizontalAlignment="Left" Height="133" Margin="40,521,0,0" VerticalAlignment="Top" Width="440" Background="#FF001514" BorderBrush="#FF001514" Foreground="#FFFFFAFF" HorizontalContentAlignment="Right" FontSize="90" FontFamily="Digital-7"/>
         <Image Margin="66,531,1176,124" Source="/Deneme/Damalı_bayrak.png" Stretch="Fill"/>
-        <TextBlock HorizontalAlignment="Left" Height="100" Margin="653,521,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" FontSize="18"><Run Language="tr-tr" Text="Kapı aç kapa butonu gelecek"/><LineBreak/><Run Language="tr-tr" Text="(Her iki tarafa)"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="41" Margin="653,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" FontSize="14"><Run Language="tr-tr" Text="Farları aç kapa butonu gelecek"/></TextBlock>
-        <Rectangle HorizontalAlignment="Left" Height="133" Margin="498,42,0,0" Stroke="Black" VerticalAlignment="Top" Width="133"/>
-        <TextBlock HorizontalAlignment="Left" Height="133" Margin="498,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" FontSize="24"><Run Language="tr-tr" Text="Direksiyon Açısı"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
-        <Rectangle HorizontalAlignment="Left" Height="133" Margin="777,42,0,0" Stroke="Black" VerticalAlignment="Top" Width="133"/>
-        <TextBlock HorizontalAlignment="Left" Height="133" Margin="777,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" FontSize="24"><Run Language="tr-tr" Text="Pil Verileri"/><LineBreak/><Run Language="tr-tr"/></TextBlock>
-
+        <Rectangle HorizontalAlignment="Left" Height="57" Margin="748,597,0,0" Stroke="Black" VerticalAlignment="Top" Width="59"/>
+        <Rectangle HorizontalAlignment="Left" Height="57" Margin="866,597,0,0" Stroke="Black" VerticalAlignment="Top" Width="58"/>
+        <Button x:Name="ışık_Btn" HorizontalAlignment="Left" Height="51" Margin="866,600,0,0" VerticalAlignment="Top" Width="56" BorderBrush="{x:Null}">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="/Templateler/lightbulb.png"/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush ImageSource="/Templateler/lightbulb.png"/>
+            </Button.Foreground>
+            <Button.Background>
+                <ImageBrush ImageSource="/Templateler/lightbulb.png"/>
+            </Button.Background>
+        </Button>
+        <Rectangle HorizontalAlignment="Left" Height="57" Margin="807,597,0,0" Stroke="Black" VerticalAlignment="Top" Width="59"/>
+        <Button x:Name="arac_kapı_Btn" HorizontalAlignment="Left" Height="56" Margin="807,597,0,0" VerticalAlignment="Top" Width="59" BorderBrush="{x:Null}">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="/Templateler/araç_kapı.png"/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush ImageSource="/Templateler/araç_kapı.png"/>
+            </Button.Foreground>
+            <Button.Background>
+                <ImageBrush ImageSource="/Templateler/araç_kapı.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="powe_Btn" HorizontalAlignment="Left" Height="51" Margin="753,600,0,0" VerticalAlignment="Top" Width="50" BorderBrush="{x:Null}">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="/Deneme/aç_kapa_tuş.png"/>
+            </Button.OpacityMask>
+            <Button.Foreground>
+                <ImageBrush ImageSource="/Deneme/aç_kapa_tuş.png"/>
+            </Button.Foreground>
+            <Button.Background>
+                <ImageBrush ImageSource="/Deneme/aç_kapa_tuş.png"/>
+            </Button.Background>
+        </Button>
+        <Rectangle HorizontalAlignment="Left" Height="179" Margin="40,338,0,0" Stroke="Black" VerticalAlignment="Top" Width="440"/>
     </Grid>
 </Page>
