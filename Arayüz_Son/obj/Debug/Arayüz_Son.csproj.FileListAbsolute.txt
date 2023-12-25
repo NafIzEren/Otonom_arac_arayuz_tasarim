@@ -359,3 +359,7 @@ C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\D
 C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\obj\Debug\deneme_sayfa.g.cs
 C:\Users\Eren\Documents\GitHubRepos\Otonom_arac_arayuz_tasarim\Arayüz_Son\obj\Debug\deneme_sayfa.baml
+C:\Users\acely\source\repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\HandyControl.dll
+C:\Users\acely\source\repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\bin\Debug\HandyControl.xml
+C:\Users\acely\source\repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\obj\Debug\deneme_sayfa.g.cs
+C:\Users\acely\source\repos\Otonom_arac_arayuz_tasarim\Arayüz_Son\obj\Debug\deneme_sayfa.baml
