@@ -19,5 +19,7 @@ namespace Arayüz_Son.Model
         public String CurrentVal { get; set; }
         public String TotalVol { get; set; }
         public String Fan { get; set; }
+        public String horsePower { get; set;}
+        public String torque { get; set; }
     }
 }
