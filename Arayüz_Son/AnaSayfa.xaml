@@ -72,5 +72,6 @@
         <Image Margin="371,145,929,599" Source="/Deneme/ikaz_ısığı.png" Stretch="Fill"/>
         <Image Margin="437,135,875,600" Source="/Deneme/elektrik_motoru_arıza.png" Stretch="Fill"/>
         <Image Margin="590,540,651,106" Source="/Deneme/teknofest.jpg" Stretch="Fill"/>
+
     </Grid>
 </Page>

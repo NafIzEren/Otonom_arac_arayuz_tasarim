@@ -63,7 +63,7 @@ namespace Arayüz_Son
 
         private void Btn_Home(object sender, RoutedEventArgs e)
         {
-            Main.Content = new AnaSayfa();
+            Main.Content = new denemeSayfa();
             Arac_Btn.Background = new SolidColorBrush(turuncu);
             Home_Btn.Background = new SolidColorBrush(beyaz);
             BMS_Btn.Background = new SolidColorBrush(turuncu);
