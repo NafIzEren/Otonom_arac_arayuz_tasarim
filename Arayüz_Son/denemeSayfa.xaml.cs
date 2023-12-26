@@ -88,6 +88,24 @@ namespace Arayüz_Son
             }
         }
 
+        private void denemeSayfa_Unloaded(object sender, RoutedEventArgs e)
+        {
+            Console.WriteLine("Unloaded");
+            StopWebcam();
+        }
+
+        private void StopWebcam()
+        {
+            if (vcd != null && vcd.IsRunning)
+            {
+                vcd.SignalToStop();
+                //vcd.Stop();
+                Console.WriteLine("VCD");
+                vcd.NewFrame -= new NewFrameEventHandler(Vcd_NewFrame);
+                vcd = null; // Release the VideoCaptureDevice
+            }
+        }
+
         private async void RefreshSpeedValue(CancellationToken cancellationToken)
         {
             while (!cancellationToken.IsCancellationRequested)

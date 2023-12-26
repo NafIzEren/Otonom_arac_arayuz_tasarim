@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Arayüz_Son"
       xmlns:WindowsPresentation="clr-namespace:GMap.NET.WindowsPresentation;assembly=GMap.NET.WindowsPresentation" x:Class="Arayüz_Son.denemeSayfa"
       mc:Ignorable="d"
-      Title="denemeSayfa" Height="762" Width="1366">
+      Title="denemeSayfa" Height="762" Width="1366" Unloaded="denemeSayfa_Unloaded">
 
     <Grid Width="1366" Height="768" Background="#FF001514">
 

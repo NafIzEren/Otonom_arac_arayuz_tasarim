@@ -7,7 +7,7 @@
       mc:Ignorable="d"
       Title="denemeSayfa2" Width="1366" Height="768">
 
-    <Grid Width="1366" Height="768">
-
+    <Grid Width="1366" Height="768" Background="#FF001514">
+        <Image Name="webcamImage" Margin="0,0,0,134"/>
     </Grid>
 </Page>
