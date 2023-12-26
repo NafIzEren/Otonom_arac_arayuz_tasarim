@@ -49,18 +49,10 @@ namespace Arayüz_Son
         private void deneme()
         {
             fico = new FilterInfoCollection(FilterCategory.VideoInputDevice);
-            foreach(FilterInfo f in fico)
-            {
-                comboBox.Items.Add(f.Name);
-                comboBox.SelectedIndex = 0;
-            }
-        }
-
-        private void BtnStart_click(object sender, RoutedEventArgs e)
-        {
-            vcd = new VideoCaptureDevice(fico[comboBox.SelectedIndex].MonikerString);
+            vcd = new VideoCaptureDevice(fico[0].MonikerString);
             vcd.NewFrame += Vcd_NewFrame;
             vcd.Start();
+        
         }
 
         private void Vcd_NewFrame(object sender, NewFrameEventArgs eventArgs)

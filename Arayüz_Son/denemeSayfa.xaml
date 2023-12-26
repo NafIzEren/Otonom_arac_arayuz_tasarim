@@ -58,12 +58,7 @@
         <Image Margin="185,219,1115,525" Source="/Deneme/stop_ikaz_ısıgı.png" Stretch="Fill"/>
         <Image Margin="374,219,926,525" Source="/Deneme/ikaz_ısığı.png" Stretch="Fill"/>
         <Image Margin="372,183,943,554" Source="/Deneme/elektrik_motoru_arıza.png" Stretch="Fill"/>
-        <Image x:Name="videoPlayer" HorizontalAlignment="Left" Height="565" Margin="587,30,0,0" VerticalAlignment="Top" Width="742"/>
-        <Button Content="Start" HorizontalAlignment="Left" Height="35" Margin="952,627,0,0" VerticalAlignment="Top" Width="96" Click="BtnStart_click"/>
-        <Button Content="Stop" HorizontalAlignment="Left" Height="37" Margin="1094,625,0,0" VerticalAlignment="Top" Width="114"/>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Height="43" Margin="587,615,0,0" VerticalAlignment="Top" Width="279" 
-                  ItemsSource="{Binding VideoDevices}"
-                  SelectedItem="{Binding CurrentDevice}" />
+        <Image x:Name="videoPlayer" HorizontalAlignment="Left" Height="628" Margin="587,30,0,0" VerticalAlignment="Top" Width="742"/>
 
     </Grid>
 </Page>
