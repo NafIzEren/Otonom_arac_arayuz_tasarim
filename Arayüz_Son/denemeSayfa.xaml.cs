@@ -48,11 +48,16 @@ namespace Arayüz_Son
 
         private void deneme()
         {
+
             fico = new FilterInfoCollection(FilterCategory.VideoInputDevice);
             vcd = new VideoCaptureDevice(fico[0].MonikerString);
             vcd.NewFrame += Vcd_NewFrame;
             vcd.Start();
-        
+        }
+
+        private void BtnStart_click(object sender, RoutedEventArgs e)
+        {
+            
         }
 
         private void Vcd_NewFrame(object sender, NewFrameEventArgs eventArgs)
