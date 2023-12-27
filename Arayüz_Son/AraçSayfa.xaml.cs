@@ -1,4 +1,7 @@
-﻿using System.Windows;
+﻿using Arayüz_Son.Services;
+using FireSharp.Interfaces;
+using System;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Media;
@@ -14,6 +17,25 @@ namespace Arayüz_Son
         public AraçSayfa()
         {
             InitializeComponent();
+            getCarPageVales();
+
+        }
+
+        private async void getCarPageVales()
+        {
+            horsePower.Text = "";
+            torque.Text = "";
+            IFirebaseClient client = FirebaseConnect.Instance.GetClient();
+            try
+            {
+
+
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
 
         }
 
