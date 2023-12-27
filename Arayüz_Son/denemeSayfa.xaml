@@ -11,7 +11,7 @@
     <Grid Width="1366" Height="768" Background="#FF001514">
 
         <Rectangle HorizontalAlignment="Center" Height="644" Margin="0,20,0,0" VerticalAlignment="Top" Width="1317" Fill="#FF6E6362"/>
-        <Rectangle HorizontalAlignment="Left" Height="638" Margin="34,20,0,0" Stroke="Black" VerticalAlignment="Top" Width="552" StrokeDashCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeDashOffset="1"/>
+        <Rectangle HorizontalAlignment="Left" Height="638" Margin="34,22,0,0" Stroke="Black" VerticalAlignment="Top" Width="552" StrokeDashCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeDashOffset="1"/>
         <Path Data="M412,171.26992 L946.8,171.6" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="41,255,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="533"/>
         <Rectangle HorizontalAlignment="Left" Height="218" Margin="256,30,0,0" Stroke="Black" VerticalAlignment="Top" Width="110" Fill="#FF001514"/>
         <TextBlock x:Name="hız" HorizontalAlignment="Left" Height="96" Margin="258,40,0,0" TextWrapping="Wrap" Text="20" VerticalAlignment="Top" Width="105" Foreground="#FFFFFAFF" FontFamily="Digital-7" FontSize="108"/>
@@ -31,7 +31,7 @@
         <Image Margin="212,70,1115,664" Source="/Deneme/Park.png" Stretch="Fill"/>
         <Image Margin="414,40,922,702" Source="/Deneme/Uzunlar.png" Stretch="Fill"/>
         <Image Margin="374,40,962,702" Source="/Deneme/Kısalar.png" Stretch="Fill"/>
-        <WindowsPresentation:GMapControl x:Name="gmapControl" Zoom="10" Margin="31,261,793,110" MouseWheelZoomType="ViewCenter" ScaleMode="Dynamic"/>
+        <WindowsPresentation:GMapControl x:Name="gmapControl" Zoom="10" Margin="36,256,783,110" MouseWheelZoomType="ViewCenter" ScaleMode="Dynamic"/>
         <Image Margin="488,164,762,547" Source="/Deneme/Battery.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
@@ -58,7 +58,7 @@
         <Image Margin="185,219,1115,525" Source="/Deneme/stop_ikaz_ısıgı.png" Stretch="Fill"/>
         <Image Margin="374,219,926,525" Source="/Deneme/ikaz_ısığı.png" Stretch="Fill"/>
         <Image Margin="372,183,943,554" Source="/Deneme/elektrik_motoru_arıza.png" Stretch="Fill"/>
-        <Image x:Name="videoPlayer" HorizontalAlignment="Left" Height="628" Margin="587,30,0,0" VerticalAlignment="Top" Width="742"/>
+        <Image x:Name="videoPlayer" HorizontalAlignment="Left" Margin="587,22,0,104" Width="754" Stretch="UniformToFill"/>
 
     </Grid>
 </Page>

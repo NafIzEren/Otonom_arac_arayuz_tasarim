@@ -168,10 +168,10 @@ namespace Arayüz_Son
             gmapControl.MapProvider = GMap.NET.MapProviders.GoogleHybridMapProvider.Instance;
             GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerOnly;
 
-            gmapControl.Position = new GMap.NET.PointLatLng(39.481016, 29.900410);
+            gmapControl.Position = new GMap.NET.PointLatLng(40.789983, 29.508963);
             gmapControl.MinZoom = 1;
-            gmapControl.MaxZoom = 20;
-            gmapControl.Zoom = 15;
+            gmapControl.MaxZoom = 19;
+            gmapControl.Zoom = 19;
         }
 
         private void ProgressBar_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
