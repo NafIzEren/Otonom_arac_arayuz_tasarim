@@ -55,5 +55,6 @@
         </Button>
         <TextBlock x:Name="saat" HorizontalAlignment="Left" Height="26" Margin="1194,684,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" FontSize="20" TextAlignment="Center" FontFamily="Franklin Gothic Medium" Foreground="#FF001514"/>
         <TextBlock x:Name="tarih" HorizontalAlignment="Left" Height="24" Margin="1177,713,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" FontSize="20" TextAlignment="Center" FontFamily="Franklin Gothic Medium" Foreground="#FF001514"/>
+        <MediaElement x:Name="Video" Source="C:\Users\Eren\Videos/Duscart_video.mp4" MediaEnded="Video_bitti"/>
     </Grid>
 </Window>

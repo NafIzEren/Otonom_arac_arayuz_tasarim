@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HandyControl.Tools.Extension;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -76,6 +77,13 @@ namespace Arayüz_Son
             Arac_Btn.Background = new SolidColorBrush(turuncu);
             Home_Btn.Background = new SolidColorBrush(turuncu);
             BMS_Btn.Background = new SolidColorBrush(beyaz);
+        }
+
+        private void Video_bitti(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new denemeSayfa();
+            Video.Hide();
+            Home_Btn.Background = new SolidColorBrush(beyaz);
         }
     }
 }
