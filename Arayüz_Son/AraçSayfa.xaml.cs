@@ -3,6 +3,7 @@ using Arayüz_Son.Services;
 using FireSharp.Interfaces;
 using FireSharp.Response;
 using Newtonsoft.Json;
+using Swan;
 using Swan.Formatters;
 using System;
 using System.Runtime.CompilerServices;
@@ -95,34 +96,74 @@ namespace Arayüz_Son
             }
 
         }
-        private void SendDataToFirebase(string value)
+        private void SendDataToFirebase(string path ,string value)
         {
             IFirebaseClient client = FirebaseConnect.Instance.GetClient();
             try
             {
-                FirebaseResponse firebase = client.Set(@"ControlValues/CarPage/OtoStart", value);
+                if (path == "OtoStart") 
+                {
+                    FirebaseResponse firebase = client.Set(@"ControlValues/CarPage/OtoStart", value);
+                }
+                else if (path == "Mod1")
+                {
+                    string Mod2 = "off";
+                    string Mod3 = "off";
 
-            }catch (Exception ex)
+                    FirebaseResponse firebase1 = client.Set(@"ControlValues/CarPage/Mod1", value);
+                    FirebaseResponse firebase2 = client.Set(@"ControlValues/CarPage/Mod2", Mod2);
+                    FirebaseResponse firebase3 = client.Set(@"ControlValues/CarPage/Mod3", Mod3);
+                }
+                else if (path == "Mod2")
+                {
+                    string Mod1 = "off";
+                    string Mod3 = "off";
+
+                    FirebaseResponse firebase1 = client.Set(@"ControlValues/CarPage/Mod1", Mod1);
+                    FirebaseResponse firebase2 = client.Set(@"ControlValues/CarPage/Mod2", value);
+                    FirebaseResponse firebase3 = client.Set(@"ControlValues/CarPage/Mod3", Mod3);
+                }
+                else if (path == "Mod3")
+                {
+                    string Mod1 = "off";
+                    string Mod2 = "off";
+
+                    FirebaseResponse firebase1 = client.Set(@"ControlValues/CarPage/Mod1", Mod1);
+                    FirebaseResponse firebase2 = client.Set(@"ControlValues/CarPage/Mod2", Mod2);
+                    FirebaseResponse firebase3 = client.Set(@"ControlValues/CarPage/Mod3", value);
+                }
+                else
+                {
+                    Console.WriteLine("Hata");
+                }
+
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
             }
 
         }
 
-        private bool isOn = true;
+        private bool isOnBasla= true;
+        private bool isOnMod_1 = true;
+        private bool isOnMod_2 = true;
+        private bool isOnMod_3 = true;
+
 
         private void BtnBasla_click(object sender, RoutedEventArgs e)
         {
-            isOn = !isOn;
-            if (isOn)
+            isOnBasla = !isOnBasla;
+            string path = "OtoStart";
+            if (isOnBasla)
             {
                 string value = "on";
-                SendDataToFirebase(value);
+                SendDataToFirebase(path, value);
             }
             else
             {
                 string value = "off";
-                SendDataToFirebase(value);
+                SendDataToFirebase(path, value);
 
             }
 
@@ -131,17 +172,23 @@ namespace Arayüz_Son
 
         private void Btn_Mod_1(object sender, RoutedEventArgs e)
         {
-
+            string value = "on";
+            string path = "Mod1";
+            SendDataToFirebase(path, value);
         }
 
         private void Btn_Mod_2(object sender, RoutedEventArgs e)
         {
-
+            string value = "on";
+            string path = "Mod2";
+            SendDataToFirebase(path, value);
         }
 
         private void Btn_Mod_3(object sender, RoutedEventArgs e)
         {
-
+            string value = "on";
+            string path = "Mod3";
+            SendDataToFirebase(path, value);
         }
     }
     public class WaveProgressBar : RangeBase
