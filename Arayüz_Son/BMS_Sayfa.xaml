@@ -56,8 +56,8 @@
         <Image Margin="1126,30,173,670" Source="/Deneme/Fan.png" Stretch="Fill"/>
         <Image Margin="1129,503,173,197" Source="/Deneme/Buzzer.png" Stretch="Fill"/>
         <Image Margin="1129,586,173,114" Source="/Deneme/Buzzer.png" Stretch="Fill"/>
-        <Button Content="AÇ       " Click="Stop_On" HorizontalAlignment="Left" Height="72" Margin="1104,262,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Foreground="#FFFFFAFF"/>
-        <Button Content="KAPAT   " Click="Stop_Off" HorizontalAlignment="Left" Height="72" Margin="1104,345,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" Foreground="#FFFFFAFF"/>
+        <Button Content="DUR    " Click="Stop_On" HorizontalAlignment="Left" Height="72" Margin="1104,262,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Foreground="#FFFFFAFF"/>
+        <Button Content="BASLA  " Click="Stop_Off" HorizontalAlignment="Left" Height="72" Margin="1104,345,0,0" VerticalAlignment="Top" Width="217" Background="#FF001514" BorderBrush="#FF001514" FontSize="24" HorizontalContentAlignment="Right" Foreground="#FFFFFAFF"/>
         <Image Margin="1129,266,172,438" Source="/Deneme/Emergency_stop.png" Stretch="Fill"/>
         <Image Margin="1129,349,172,355" Source="/Deneme/Emergency_stop.png" Stretch="Fill"/>
     </Grid>
