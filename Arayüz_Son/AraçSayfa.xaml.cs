@@ -1,9 +1,11 @@
 ﻿using Arayüz_Son.Model;
 using Arayüz_Son.Services;
 using FireSharp.Interfaces;
+using FireSharp.Response;
 using Newtonsoft.Json;
 using Swan.Formatters;
 using System;
+using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
@@ -93,8 +95,51 @@ namespace Arayüz_Son
             }
 
         }
+        private void SendDataToFirebase(string value)
+        {
+            IFirebaseClient client = FirebaseConnect.Instance.GetClient();
+            try
+            {
+                FirebaseResponse firebase = client.Set(@"ControlValues/CarPage/OtoStart", value);
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+            }catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+
+        }
+
+        private bool isOn = true;
+
+        private void BtnBasla_click(object sender, RoutedEventArgs e)
+        {
+            isOn = !isOn;
+            if (isOn)
+            {
+                string value = "on";
+                SendDataToFirebase(value);
+            }
+            else
+            {
+                string value = "off";
+                SendDataToFirebase(value);
+
+            }
+
+            
+        }
+
+        private void Btn_Mod_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Mod_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Mod_3(object sender, RoutedEventArgs e)
         {
 
         }
