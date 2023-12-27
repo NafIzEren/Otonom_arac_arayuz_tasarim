@@ -51,6 +51,8 @@ namespace Arayüz_Son
         {
             horsePower.Text = "";
             torque.Text = "";
+            bas.Text = "";
+            brake.Text = "";
 
             IFirebaseClient client = FirebaseConnect.Instance.GetClient();
             try
@@ -70,7 +72,9 @@ namespace Arayüz_Son
                     Application.Current.Dispatcher.Invoke(() =>
                     {
                         horsePower.Text = controlValues.horsePower.ToString();
-                        torque.Text += controlValues.torque.ToString();
+                        torque.Text = controlValues.torque.ToString();
+                        bas.Text = controlValues.bas.ToString();
+                        brake.Text = controlValues.brake.ToString();
                     });
                 }
                 else

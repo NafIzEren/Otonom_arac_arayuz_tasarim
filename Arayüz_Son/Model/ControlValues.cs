@@ -21,5 +21,7 @@ namespace Arayüz_Son.Model
         public String Fan { get; set; }
         public String horsePower { get; set;}
         public String torque { get; set; }
+        public String bas {  get; set; }
+        public String brake { get; set; }
     }
 }
