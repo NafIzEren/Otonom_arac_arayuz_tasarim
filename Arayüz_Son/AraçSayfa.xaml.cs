@@ -70,7 +70,7 @@ namespace Arayüz_Son
                     Application.Current.Dispatcher.Invoke(() =>
                     {
                         horsePower.Text = controlValues.horsePower.ToString();
-                        torque.Text += controlValues.torque.ToString();
+                        torque.Text = controlValues.torque.ToString();
                     });
                 }
                 else
@@ -87,6 +87,11 @@ namespace Arayüz_Son
             {
                 Console.WriteLine(ex.ToString());
             }
+
+        }
+
+        private void BtnBasla_click(object sender, RoutedEventArgs e)
+        {
 
         }
     }
