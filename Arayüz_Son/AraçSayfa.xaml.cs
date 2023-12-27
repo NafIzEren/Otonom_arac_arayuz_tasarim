@@ -89,11 +89,6 @@ namespace Arayüz_Son
             }
 
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
     public class WaveProgressBar : RangeBase
     {
